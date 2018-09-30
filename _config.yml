@@ -1,4 +1,4 @@
-title: The Bonfire Processor
+title: SiDDHARTH
 description:
 google_analytics:
 show_downloads: false
@@ -12,7 +12,7 @@ lang: en-US
 github_username: bonfireprocessor
 email: info@bonfirecpu.eu
 
-name: The Bonfire Processor Project 
+name: Siddharth J 
 
 plugins:
   - jekyll-mentions
