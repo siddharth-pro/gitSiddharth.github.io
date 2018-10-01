@@ -30,7 +30,7 @@ Note that I have used different colored wires to represent signals. 1-bit signal
 
 The instruction set is very simple. The first nibble is the opcode and the low order nibble specifies two registers for source and destination. The instructions are of two type:
 * A format instruction
-* B format instruction
+* B format instruction                          
 The instruction set above is for A format instruction. I have taken source as ra and destination as rb. These ra and rb can be any of the four general purpose registers.
 
 A-format instructions:
