@@ -18,10 +18,6 @@ actions:
     icon: github
     url: https://github.com/bonfireprocessor
   - label : "Read More"
-    url: /about.html
-
-  - label: "Download"
-    icon: download
-    url: https://github.com/bonfireprocessor/bonfire/releases    
+    url: /prorisc.html  
 
 ---
