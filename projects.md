@@ -12,9 +12,6 @@ introduction: |
 
 
 actions:
-  - label: "View on GitHub"
-    icon: github
-    url: https://github.com/bonfireprocessor
   - label : "Read More" 
     url: /about.html
 
