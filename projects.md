@@ -9,15 +9,9 @@ image: /assets/images/background.jpg
 * The design is synthesized and implemented on both spartan 3e and cyclone IV FPGA.
 * Tools used: Questasim, Xilinx ISE and Quartus II.
 
----
 actions:
   - label: "View on GitHub"
     icon: github
     url: https://github.com/
   - label : "Read More"
     url: /serial.html
----
-
-#### Design of an I2C using verilog to read temperature data from LM75
-
-
