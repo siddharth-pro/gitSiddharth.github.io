@@ -1,4 +1,6 @@
-title: </SIDDHARTH>
+title: <SIDDHARTH>{
+        Hello world
+        }; </SIDDHARTH>
 description:
 google_analytics:
 show_downloads: false
