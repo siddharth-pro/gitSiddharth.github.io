@@ -1,4 +1,5 @@
 ---
+layout: page
 title: UART
 image: /assets/images/background.jpg
 ---
