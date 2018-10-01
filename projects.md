@@ -8,11 +8,6 @@ Serial communication between two FPGAs using UART
  - The design is synthesized and implemented on both spartan 3e and cyclone IV FPGA.
  - Tools used: Questasim, Xilinx ISE and Quartus II.
 
-actions:
-- label: "Download"
-  icon: download
-  url: https://github.com/bonfireprocessor/bonfire/releases
-
 ---
 
 
