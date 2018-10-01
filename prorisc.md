@@ -26,4 +26,4 @@ Note that I have used different colored wires to represent signals. 1-bit signal
 
 ## Instruction set
 
-![ISA](/assets/images/proRISC Instruction set.jpg)
+![ISA](/assets/images/proRISC_Instruction_set.jpg)
