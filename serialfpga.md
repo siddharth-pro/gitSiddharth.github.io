@@ -33,7 +33,7 @@ module uart
  ```
 
 
-#### UART Protcol
+#### UART Protcol:
 
 ![UART Transaction](/assets/images/UART_timing_diagram.svg.png)
 
