@@ -5,7 +5,7 @@ image: /assets/images/background.jpg
 actions:
 - label: "View on GitHub"
   icon: github
-  url: https://github.com/bonfireprocessor/bonfire/releases
+  url: https://github.com/
 ---
 
 
