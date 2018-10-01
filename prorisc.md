@@ -35,7 +35,7 @@ The instruction set above is for A format instruction. I have taken source as ra
 
 A-format instructions:
 
-[A-format Instructions](/assets/images/A_format_instruction.jpg)
+[A-format Instructions](/assets/images/AInstr.jpg)
 
 
 
