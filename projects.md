@@ -10,11 +10,11 @@ image: /assets/images/background.jpg
 * Tools used: Questasim, Xilinx ISE and Quartus II                              
 [View Project](https://github.com/ThomasHornschuh/elua)
 
-### Design of an I2C to read data from LM75
-* Implemented  in  readable VHDL code
-* Clean module structure
-* Leverages FuseSoC as build system
-* Testbenches can be run with Xilinx ISE, Xilinx Vivado and GHDL                                 
+### Design of an I2C to read data from LM75A
+* Implemented  in  readable verilog code
+* Address and data cycles are as per the datasheet of LM75A
+* Temperature data is obtained in hexadecimal
+* Design is verified on cyclone IV FPGA board
 [View Project](https://github.com/ThomasHornschuh/elua)
 
 
