@@ -1,7 +1,7 @@
 ---
 layout: page
 title: proRISC
-image: /assets/images/arty.png
+image: /assets/images/background.jpg
 ---
 
 ## Core
