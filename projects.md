@@ -3,8 +3,11 @@ title: Projects
 image: /assets/images/background.jpg
 ---
 
-#### Prebuild Bitstream Quick start guide
-If you own a Digilent [Arty A35 Board](https://store.digilentinc.com/arty-a7-artix-7-fpga-development-board-for-makers-and-hobbyists/) a prebuild mcs File is available, which contains the Bonfire Implementation for Arty Board including a simple Boot Monitor and a ready to run eLua image.
+#### Serial communication between two FPGAs using UART
+If you own a Digilent a prebuild mcs File is available, which contains the Bonfire Implementation for Arty Board including a simple Boot Monitor and a ready to run eLua image.
+
+#### Design of an I2C using verilog to read temperature data from LM75
+If you own a Digilent a prebuild mcs File is available, which contains the Bonfire Implementation for Arty Board including a simple Boot Monitor and a ready to run eLua image.
 
 ##### Installation Instructions
 1.  Download the mcs.zip file from [here](https://github.com/bonfireprocessor/bonfire/releases)
