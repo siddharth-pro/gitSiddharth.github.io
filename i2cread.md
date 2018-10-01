@@ -19,7 +19,7 @@ LM75A has four registers, but the register of our interest is the temperature re
 
 The address which is to be sent is shown above. Here 0th bit indicates read/write operation. As we are reading from the sensor, it should be 1. Bits 1 to 3 specifies the slave address. It is taken as 000 since we have only one slave. Bit 4 to 7 is preset to 1001 by hard-wiring inside the LM75A.
 
-That's it about LM75A you need to know just for reading the temperature. Next thing is to design I2C module as per the protocol, which is explained very well over [here](https://learn.sparkfun.com/tutorials/i2c). This tutorial shows only one byte of data to be read or written. But, the LM75A temperature register stores to byte of data. Hence the read data cycle has to be done twice.
+That's it about LM75A you need to know just for reading the temperature. Next thing is to design I2C module as per the protocol, which is explained very well over [here](https://learn.sparkfun.com/tutorials/i2c). The Sparkfun tutorial shows only one byte of data to be read or written. But, the LM75A temperature register stores two byte of data. Hence the read data cycle has to be done twice.
 
 ![address_data_cycle](/assets/images/address_data_cycle.png)
 
