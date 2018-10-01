@@ -23,7 +23,7 @@ That's it about LM75A you need to know just for reading the temperature. Next th
 
 ![address_data_cycle](/assets/images/address_data_cycle.png)
 
-The two bytes of data received from LM75A, the bits 0 to 4 should be ignored because the interal circuitry of the LM75A is such that those 5 bits are zero. So only 11 bits are considered. 
+In the two bytes of data received from LM75A, the bits 0 to 4 should be ignored because the interal circuitry of the LM75A is such that those 5 bits are zero. So only 11 bits are considered. 
 
 ![Temperature data](/assets/images/Temp_data.png)
 
