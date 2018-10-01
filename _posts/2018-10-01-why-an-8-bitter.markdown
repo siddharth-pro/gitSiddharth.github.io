@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Why an 8-bitter?"
+image: /assets/images/background.jpg
 date: "2018-10-01"
 ---
 
