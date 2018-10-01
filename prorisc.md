@@ -45,3 +45,5 @@ B-format instructions are two bytes and are used for branch instructions. The fi
 B-format instructions:
 
 ![](/assets/images/B_instructions.png)
+
+**The information on about this processor is constantly subjected to change as I decide to include a new functionality.
