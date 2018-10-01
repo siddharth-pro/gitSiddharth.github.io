@@ -27,3 +27,4 @@ The two bytes of data received from LM75A, the bits 0 to 4 should be ignored bec
 
 ![Temperature data](/assets/images/Temp_data.png)
 
+This 11-bit binary number should be multiplied with 0.125 to get the temperature in degree celsius. If D10=0, the temperature is positive. If D11=1, the temperature data should be 2's complimented and multiplied with 0.125 to get negative temperaure in °C.
