@@ -33,7 +33,42 @@ The instruction set is very simple. The first nibble is the opcode and the low o
 * B format instruction
 The instruction set above is for A format instruction. I have taken source as ra and destination as rb. These ra and rb can be any of the four general purpose registers.
 
-A-format instructions
+A-format instructions:
+
 [A-format Instructions](/assets/images/A_format_instruction.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
