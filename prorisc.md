@@ -35,13 +35,12 @@ The instruction set above is for A format instruction. I have taken source as ra
 
 A-format instructions:
 
-[AI](/assets/images/AInstr.jpg)
+![A-format instruction](/assets/images/AInstr.jpg)
 
 
 B-format instructions are two bytes and are used for branch instructions. The first byte specifies the operation and the next byte is the address to be loaded into the PC for branch operations.
 
-
-<img src="/assets/images/Binstrset.png" width="800" /> ![](/assets/images/Binstrset.png)
+![b-format instruction](/assets/images/Binstrset.png)
 
 
 
