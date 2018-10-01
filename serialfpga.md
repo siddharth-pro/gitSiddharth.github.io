@@ -9,12 +9,12 @@ actions:
 ---
 
 
-There are two goals of this project:
+###### There are two goals of this project:                    
 1. To implement an UART on two FPGAs, in this case spartan 3e and cyclone IV.
 2. Communicate serially between two FPGA boards through tx and rx pins using switches.
 
-Here's a brief overview of this project:
-The main part of this project is the UART itself which is coded in verilog. I have used two FPGA boards and implemented the same UART in both of them. The tx and rx pin from one FPGA board is connected to rx and tx pin of other. This way it is possible to establish a full duplex communication between the two FPGAs. The inputs to both the UARTs are given through switches and the outputs are observed on the LEDs and seven segment display. 
+##### Here's a brief overview of this project:                                       
+The main part of this project is the UART itself which is coded in verilog. I have used two FPGA boards and implemented the same UART on both the FPGAs. The tx and rx pin from one FPGA board is connected to rx and tx pin of the other. This way it is possible to establish a full duplex communication between the two FPGAs. The inputs to both the UARTs are given through switches and the outputs are observed on the LEDs and seven segment display. 
 
 ##### Ports:
 ```verilog
@@ -37,7 +37,7 @@ module uart
 
 ![UART Transaction](/assets/images/UART_timing_diagram.svg.png)
 
-* In UART the data transmission and receiving takes place without a common clock between the two devices. Hence the two devices must work at the same speed called baud rate. In this project the baud rate of UART is considered to be 19200. 
+* In UART the data transmission and receiving takes place without a common clock between the two devices. Hence the two devices must work at the same speed called baud rate. In this project the baud rate of the UART is considered to be 19200. 
 Using baud rate and FPGA clock frequency, the clock per bit is calculated: clock per bit = (clock frequency/baud rate)
 
 For Spartan 3E FPGA board: 
@@ -56,7 +56,7 @@ Receiver:
 * After all the 8 bits are received, the receiver then looks for the stop bit which is high for one bit time.
 
 Transmitter:
-* The transmitter works in same way as the receiver. In that it sends the start bit for one bit time. The one byte data is sent serially starting from LSB, one bit at a time. After all the data bits are transmitted. The stop bit is sent for one bit time marking the end of transmission.
+* The transmitter works in same way as the receiver. In that, it sends the start bit for one bit time. The one byte data is sent serially starting from LSB, one bit at a time. After all the data bits are transmitted. The stop bit is sent for one bit time marking the end of transmission.
 
 Final Implementation:
 
