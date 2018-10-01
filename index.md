@@ -10,7 +10,7 @@ introduction: |
   - Can perform operations in two to three cycles
   - Easy to understand and use
   - Synthesizable on FPGA
-  - flexible to add new functionality since its based on RISC architecture
+  - Flexible to add new functionality since its based on RISC architecture
 
 actions:
   - label: "View on GitHub"
