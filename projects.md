@@ -1,13 +1,15 @@
 ---
 title: Projects
 image: /assets/images/background.jpg
-introduction: |
- [#### Serial communication between two FPGAs using UART](https://pages.github.com/)
+
+ #### Serial communication between two FPGAs using UART
 
   - UART receiver and transmitter is coded in verilog
   - The reciever and transmitter functionality is verified using a testbench
   - The design is synthesized and implemented on both spartan 3e and cyclone IV FPGA
   - Tools used: Questasim, Xilinx ISE and Quartus II
+([###View Project](https://siddharth.pro/projects.html))
+
 
 ---
 
