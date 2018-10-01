@@ -14,7 +14,7 @@ image: /assets/images/background.jpg
 * Implemented  in  readable verilog code
 * Address and data cycles are as per the datasheet of LM75A
 * Temperature data is obtained in hexadecimal
-* Design is verified on cyclone IV FPGA board
+* Design is verified on cyclone IV FPGA board                                     
 [View Project](/i2cread.html)
 
 
