@@ -7,10 +7,10 @@ image: /assets/images/background.jpg
 introduction: |
  proRISC is an 8-bit Softcore Processor based on RISC architecture. It is desiged to be synthesizable. Some of its features include:
   
-  - Can perform operations in two to three cycles
+  - Takes two to three cycles for each operation
   - Easy to understand and use
   - Synthesizable on FPGA
-  - Flexible to add new functionality since its based on RISC architecture
+  - Flexible to add a new functionality since its based on RISC architecture
 
 actions:
   - label: "View on GitHub"
