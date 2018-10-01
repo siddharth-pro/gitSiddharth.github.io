@@ -4,8 +4,10 @@ image: /assets/images/background.jpg
 ---
 
 ### Serial communication between two FPGAs using UART
-* Supports RV32IM based on RISC-V User Level  ISA 2.1. (M-Spec is optional)
-* Supports M-Mode according to RISC-V privilege Spec 1.10 and a Subset of CSR Registers
+* UART receiver and transmitter is coded in verilog
+* The reciever and transmitter functionality is verified using a testbench
+* The design is synthesized and implemented on both spartan 3e and cyclone IV FPGA
+* Tools used: Questasim, Xilinx ISE and Quartus II
 [View Project](https://github.com/ThomasHornschuh/elua)
 
 ### Design of an I2C to read data from LM75
