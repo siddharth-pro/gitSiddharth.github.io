@@ -1,7 +1,6 @@
 ---
-layout: page
-title: Features
-image: /assets/images/arty.png
+title: Projects
+image: /assets/images/background.jpg
 ---
 
 ## Core
