@@ -1,7 +1,7 @@
+---
 title: Projects
 image: /assets/images/background.jpg
 
----
 actions:
 - label: "Download"
   icon: download
