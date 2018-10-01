@@ -32,6 +32,28 @@ module uart
  );
  ```
 
+
 #### UART Protcol
 
 ![UART Transaction](/assets/images/UART_timing_diagram.svg.png)
+
+* In UART the data transmission and receiving takes place without a common clock between the two devices. Hence the two devices must work at the same speed called baud rate. In this project the baud rate of UART is considered to be 19200. 
+Using baud rate and FPGA clock frequency, the clock per bit is calculated: clock per bit = (clock frequency/baud rate)
+
+For Spartan 3E FPGA board: 
+
+clock per bit = (32000000/19200) ≈ 1666
+Hence counter width is [10:0].
+
+For Cyclone IV FPGA board: 
+
+clock per bit = (50000000/19200) = 2604
+Hence counter width is [11:0].
+
+Receiver:
+* During the idle state the data line is high. The data line becoming low suggests an incoming signal. It should remain low at least for one-half of the bit time (clock per bit). After the start condition is established the data is received one bit at a time (clock per bit) from LSB to MSB. 
+
+* After all the 8 bits are received, the receiver then looks for the stop bit which is high for one bit time.
+
+Transmitter:
+* The transmitter works in same way as the receiver. In that it sends the start bit for one bit time. The one byte data is sent serially starting from LSB, one bit at a time. After all the data bits are transmitted. The stop bit is sent for one bit time marking the end of transmission.
