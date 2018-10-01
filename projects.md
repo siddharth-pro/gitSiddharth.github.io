@@ -1,5 +1,5 @@
 ---
-alt-title: Projects
+sub-title: Projects
 image: /assets/images/background.jpg
 
 introduction: |
