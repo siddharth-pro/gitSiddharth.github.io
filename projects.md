@@ -1,6 +1,6 @@
 ---
 title: Projects
-image: /assets/images/arty.png
+image: /assets/images/background.jpg
 actions:
 - label: "Download"
   icon: download
