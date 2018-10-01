@@ -19,5 +19,6 @@ image: /assets/images/background.jpg
 
 ![proRISC](/assets/images/proRISC.jpg)
 
-![wires](/assets/images/signals.jpg) Note that I have used different wires to represent signals. 1-bit signals are control signals in and out of  the FSM which are applied to various registers and PC.
+![wires](/assets/images/signals.jpg) 
+Note that I have used different wires to represent signals. 1-bit signals are control signals in and out of  the FSM which are applied to various registers and PC.
 8-bit signals are data, instruction, address travelling on the bus. 4-bit opcode goes into the ALU to specify the operation. 3-bit signals are mux select inputs from the FSM. 
