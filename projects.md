@@ -1,10 +1,6 @@
 ---
 title: Projects
 image: /assets/images/background.jpg
-actions:
-- label: "Download"
-  icon: download
-  url: https://github.com/bonfireprocessor/bonfire/releases
 ---
 
 #### Prebuild Bitstream Quick start guide
