@@ -19,4 +19,4 @@ image: /assets/images/background.jpg
 
 ![proRISC](/assets/images/proRISC.jpg)
 
-![wires](/assets/images/wires.jpg)
+![wires](/assets/images/signals.jpg)
