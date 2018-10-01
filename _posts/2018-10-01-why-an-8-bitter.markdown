@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Story behind the Bonfire Processor - Part I"
+title: "Why an 8-bitter?"
 date: "2018-10-01"
 ---
 
