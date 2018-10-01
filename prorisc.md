@@ -42,34 +42,6 @@ B-format instructions are two bytes and are used for branch instructions. The fi
 
 ![b-format instruction](/assets/images/Binstrset.png)
 
+B-format instructions:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](/assets/images/B_instructions.png)
