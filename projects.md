@@ -15,8 +15,6 @@ actions:
   - label : "Read More" 
     url: /about.html
 
-introduction: |
- #### Design of an I2C using verilog to read temperature data from LM75
 
 ---
 
