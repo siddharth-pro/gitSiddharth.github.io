@@ -38,6 +38,10 @@ A-format instructions:
 [A-format Instructions](/assets/images/AInstr.jpg)
 
 
+B-format instructions are two bytes and are used for branch instructions. The first byte specifies the operation and the next byte is the address to be loaded into the PC for branch operations.
+
+[B format Instructions](/assets/images/BInstr.jpg)
+
 
 
 
