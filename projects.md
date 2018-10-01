@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Projects
 image: /assets/images/background.jpg
 ---
