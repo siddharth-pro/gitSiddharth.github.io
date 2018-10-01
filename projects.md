@@ -1,4 +1,3 @@
----
 title: Projects
 image: /assets/images/background.jpg
 actions:
