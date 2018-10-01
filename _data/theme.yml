@@ -35,7 +35,7 @@ t:
 
 navigation_pages:
   - prorisc.md
-  - posts.md
   - projects.md
+  - posts.md
   - bonfire_core.md
   - testpage.md
