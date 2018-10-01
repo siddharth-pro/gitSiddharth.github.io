@@ -5,18 +5,17 @@ alt_title: proRISC
 sub_title: "An 8-bit RISC Processor"
 image: /assets/images/background.jpg
 introduction: |
- Bonfire is a Softcore Processor and SoC designed for use on FPGAs. It is targeted to be "ready-to-use" on Low-Cost FPGA Boards. An implementation of eLua makes the resulting systems easy to use and self-contained
-
-  - RISC-V RV32IM compatible
+ proRISC is an 8-bit Softcore Processor based on RISC architecture. It is desiged to be synthesizable. Some of its features include:
+  
+  - Can perform operations in two to three cycles
   - Easy to understand and use
-  - Flexible interfacing - Several Toplevel configurations available
-  - Turnkey Implementations for Digilent Arty and Papilio Pro Boards
-
+  - Synthesizable on FPGA
+  - flexible to add new functionality since its based on RISC architecture
 
 actions:
   - label: "View on GitHub"
     icon: github
-    url: https://github.com/bonfireprocessor
+    url: https://github.com/
   - label : "Read More"
     url: /prorisc.html  
 
