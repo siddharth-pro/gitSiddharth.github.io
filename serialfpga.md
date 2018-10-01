@@ -1,14 +1,20 @@
 ---
-title: Serial communication between two FPGAs using UART
-image: /assets/images/background.html
-introduction: |
-There are two goals of this project
-1. To implement an UART on two FPGAs, in this case spartan 3e and cyclone IV.
-2. Communicate serially between two FPGA boards through tx and rx pins using switches.
+title: Projects
+image: /assets/images/background.jpg
 
-Here's a brief overview of this project
+### Serial communication between two FPGAs using UART
+* UART receiver and transmitter is coded in verilog
+* The reciever and transmitter functionality is verified using a testbench
+* The design is synthesized and implemented on both spartan 3e and cyclone IV FPGA
+* Tools used: Questasim, Xilinx ISE and Quartus II                              
+#### [View Project](/serialfpga.html)
 
-The main part of this project is the UART itself which is coded in verilog. I have used two FPGA boards and implemented the same UART in both of them. The tx and rx pin from one FPGA board is connected to rx and tx pin of other. This way it is possible to establish a full duplex communication between the two FPGAs. The inputs to both the UARTs are given through switches and the outputs are observed on the LEDs and seven segment display. 
+### Design of an I2C to read data from LM75A
+* Implemented  in  readable verilog code
+* Address and data cycles are as per the datasheet of LM75A
+* Temperature data is obtained in hexadecimal
+* Design is verified on cyclone IV FPGA board                                     
+#### [View Project](/i2cread.html)
 
 
 actions:
@@ -24,3 +30,5 @@ actions:
 
 ---
 
+
+ 
