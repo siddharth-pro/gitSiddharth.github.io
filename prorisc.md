@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Features
+title: proRISC
 image: /assets/images/arty.png
 ---
 
