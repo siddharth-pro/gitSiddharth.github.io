@@ -1,5 +1,5 @@
 ---
-title: Quick start
+title: Projects
 image: /assets/images/arty.png
 actions:
 - label: "Download"
