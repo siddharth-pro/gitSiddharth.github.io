@@ -31,3 +31,7 @@ module uart
  output done_tx //Transmission is over
  );
  ```
+
+#### UART Protcol
+
+[UART Transaction](/assets/images/UART_timing_diagram.svg.png)
