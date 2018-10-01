@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Story behind the Bonfire Processor - Part I"
-date: "2018-07-27 20:53:01 +0200"
+date: "2018-10-01"
 ---
 
 In my professional live I'm a software development manager at [ORTEC B.V.](www.ortec.com) We are focusing
