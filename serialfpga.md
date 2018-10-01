@@ -10,7 +10,7 @@ actions:
 
 
 ##### There are two goals of this project:                    
-1. To implement an UART on two FPGAs, in this case spartan 3e and cyclone IV.
+1. To implement UART on two FPGAs, in this case spartan 3e and cyclone IV.
 2. Communicate serially between two FPGA boards through tx and rx pins using switches.
 
 ##### Here's a brief overview of this project:                                       
