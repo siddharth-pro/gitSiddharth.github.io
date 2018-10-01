@@ -1,7 +1,7 @@
 ---
 title: Projects
 image: /assets/images/background.jpg
----
+
 
 #### Serial communication between two FPGAs using UART
 * UART receiver and transmitter is coded in verilog.
@@ -15,3 +15,4 @@ actions:
     url: https://github.com/
   - label : "Read More"
     url: /serial.html
+---
