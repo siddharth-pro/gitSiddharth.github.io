@@ -15,7 +15,7 @@ image: /assets/images/background.jpg
 * As of now the ALU performs limited operations like ADD, SUB, AND and NOT. The two operand registers OP1 and OP2 are used to give inputs to the ALU. 
 * There is also a flag register to store information about zero and negative condition required for branch operations.
 * The Multiplexer allows the output from registers, pc, alu and memory based on the select bits from the FSM.
-* There are two branch operations possible: unconditional branch and branch if zero.
+* Two branch operations are possible: unconditional branch and branch if zero.
 
 ![proRISC](/assets/images/proRISC.jpg)
 
