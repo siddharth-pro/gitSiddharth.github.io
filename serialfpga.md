@@ -34,4 +34,4 @@ module uart
 
 #### UART Protcol
 
-[UART Transaction](/assets/images/UART_timing_diagram.svg.png)
+![UART Transaction](/assets/images/UART_timing_diagram.svg.png)
