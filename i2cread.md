@@ -15,7 +15,7 @@ LM75A is a digital temperature sensor and thermal watchdog, since the I2C contro
 
 LM75A has four registers, but the register of our interest is the temperature register which stores two byte of information. During power up the pointer value is already at 0, so we need not specify the pointer value to read the temperature.
 
-![slave address](/assets/images/address.png)
+![slave address](/assets/images/slave_address.png)
 
 The address which is to be sent is shown above. Here 0th bit indicates read/write operation. As we are reading from the sensor, it should be 1. Bits 1 to 3 specifies the slave address. It is taken as 000 since we have only one slave. Bit 4 to 7 is preset to 1001 by hard-wiring inside the LM75A.
 
