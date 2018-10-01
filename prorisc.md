@@ -17,7 +17,7 @@ image: /assets/images/background.jpg
 * The Multiplexer allows the output from registers, pc, alu and memory based on the select bits from the FSM.
 * There are two branch operations possible: unconditional branch and branch if zero.
 
-![image test](/assets/images/block_design.png)
+![proRISC](/assets/images/proRISC.png)
 
 ####  RISC-V RV32IM compatible
 * Supports RV32IM based on RISC-V User Level  ISA 2.1. (M-Spec is optional)
