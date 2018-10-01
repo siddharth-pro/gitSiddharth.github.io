@@ -57,3 +57,5 @@ Receiver:
 
 Transmitter:
 * The transmitter works in same way as the receiver. In that it sends the start bit for one bit time. The one byte data is sent serially starting from LSB, one bit at a time. After all the data bits are transmitted. The stop bit is sent for one bit time marking the end of transmission.
+
+![serial fpga](/assets/images/Serial_comm_fpga.jpg)
