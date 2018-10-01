@@ -3,8 +3,8 @@ layout: page
 title: UART
 image: /assets/images/background.jpg
 actions:
-- label: "Download"
-  icon: download
+- label: "View on GitHub"
+  icon: github
   url: https://github.com/bonfireprocessor/bonfire/releases
 ---
 
