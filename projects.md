@@ -16,5 +16,11 @@ title: Projects
 * Design is verified on cyclone IV FPGA board                                     
 #### [View Project](/i2cread.html)
 
+### 8-bit RISC CPU
+* The processor is coded in verilog.
+* The design is verified by writing the instructions to memory through backdoor letting the processor operate on those instructions.
+* Operations such as reading from memory to register, writing to memory and addition is verified. 
+#### [View Project](/prorisc.html)
+
 
  
