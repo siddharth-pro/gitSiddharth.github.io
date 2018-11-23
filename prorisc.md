@@ -1,7 +1,6 @@
 ---
 layout: page
 title: proRISC
-image: /assets/images/background.jpg
 ---
 
 ## Architecture
