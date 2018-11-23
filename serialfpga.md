@@ -1,7 +1,6 @@
 ---
 layout: page
 alt_title: UART
-image: /assets/images/background.jpg
 actions:
 - label: "View on GitHub"
   icon: github
