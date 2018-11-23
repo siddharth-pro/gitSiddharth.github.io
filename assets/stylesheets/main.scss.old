@@ -10,7 +10,7 @@
 @import "basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
 
 $base-font-size: 14px;
-$max-font-size: 14px;
+$max-font-size: 18px;
 
 
 
