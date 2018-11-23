@@ -1,7 +1,12 @@
 ---
 layout: page
 title: proRISC
+actions:
+  - label: "View on GitHub"
+    icon: github
+    url: https://github.com/
 ---
+proRISC is an 8-bit Softcore Processor based on RISC architecture.
 
 ## Architecture
 
