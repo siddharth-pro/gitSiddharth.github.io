@@ -1,12 +1,13 @@
 ---
 layout: page
-title: proRISC- An 8-bit RISC CPU
+title: proRISC
+sub-title: An 8-bit RISC CPU
 actions:
   - label: "View on GitHub"
     icon: github
     url: https://github.com/gitSiddharth/proRISC
 ---
-proRISC is an 8-bit Softcore Processor based on RISC architecture.
+
 
 ## Architecture
 
