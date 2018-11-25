@@ -1,7 +1,7 @@
 ---
 layout: page
 title: proRISC
-sub-title: An 8-bit RISC CPU
+alt_title: An 8-bit RISC CPU
 actions:
   - label: "View on GitHub"
     icon: github
