@@ -1,6 +1,6 @@
 ---
 layout: page
-title: proRISC - 8-bit RISC CPU
+title: proRISC: 8-bit RISC CPU
 actions:
   - label: "View on GitHub"
     icon: github
