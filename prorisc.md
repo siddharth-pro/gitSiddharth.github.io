@@ -3,7 +3,7 @@ layout: page
 title: proRISC
 sub_title: An 8-bit RISC Processor
 actions:
-  - label: "View on GitHub"
+  - label: "View code on GitHub"
     icon: github
     url: https://github.com/gitSiddharth/proRISC
 ---
