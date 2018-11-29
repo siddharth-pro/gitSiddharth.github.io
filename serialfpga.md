@@ -2,7 +2,7 @@
 layout: page
 alt_title: UART
 actions:
-- label: "View on GitHub"
+- label: "View code on GitHub"
   icon: github
   url: https://github.com/gitSiddharth/UART
 ---
