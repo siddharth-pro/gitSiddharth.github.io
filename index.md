@@ -2,6 +2,6 @@
 layout: home
 paginate: false
 
-## Home
+introduction: ## Home
 
 ---
