@@ -1,6 +1,6 @@
 ---
 layout: home
 paginate: false
-alt_title: Home
+title: Home
 ---
 
