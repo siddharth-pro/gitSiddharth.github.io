@@ -1,7 +1,8 @@
 ---
 layout: home
 paginate: false
-
+alt_title: proRISC
+sub_title: "An 8-bit RISC Processor"
 introduction: |
  proRISC is an 8-bit Softcore Processor based on RISC architecture. It is desiged to be synthesizable. Some of its features include:
   
