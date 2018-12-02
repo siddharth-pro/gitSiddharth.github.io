@@ -51,4 +51,3 @@ B-format instructions:
 
 ![](/assets/images/B_instructions.png)
 
-**The information on this page is constantly subjected to change as I decide to include a new functionality to the processor.
