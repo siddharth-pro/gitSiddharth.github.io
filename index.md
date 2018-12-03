@@ -1,5 +1,5 @@
 ---
 layout: home
 paginate: false
-alt_title: ⌂ H̲o̲m̲e̲
+alt_title: ⌂ ɦօʍɛ
 ---
