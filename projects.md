@@ -1,5 +1,5 @@
 ---
-title: 🅿🆁🅾🅹🅴🅲🆃🆂
+title: Projects
 ---
 
 ### Serial communication between two FPGAs using UART
