@@ -1,5 +1,5 @@
 ---
 layout: home
 paginate: false
-alt_title: (̶◉͛‿◉̶) 
+alt_title: 🏠
 ---
