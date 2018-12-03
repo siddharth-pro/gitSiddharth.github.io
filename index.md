@@ -1,5 +1,5 @@
 ---
 layout: home
 paginate: false
-sub_title: Home
+alt_title: Home
 ---
