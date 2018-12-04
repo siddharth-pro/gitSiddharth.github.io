@@ -27,7 +27,7 @@ Using baud rate and FPGA clock frequency, the clock per bit is calculated: clock
 
 For Cyclone IV FPGA board: 
 
-clock per bit = (50000000/19200) = 2604
+clock per bit = (50000000/19200) = 2604                    
 To accomodate count of 2604 the counter width should be [11:0].
 
 Receiver:
@@ -38,10 +38,11 @@ Receiver:
 Transmitter:
 * The transmitter works in same way as the receiver. In that, it sends the start bit for one bit time. The one byte data is sent serially starting from LSB, one bit at a time. After all the data bits are transmitted. The stop bit is sent for one bit time marking the end of transmission.
 
+                                      
 
 Simulation output on the transcript window:
 
-```
+##### ```
 # RESET INITIATED, time in ns = 0
 # RESET TERMINATED, time in ns= 150
 # ---------------------------------------------
