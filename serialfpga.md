@@ -63,6 +63,7 @@ Final Implementation:
 
 Transcript 
 
+```
 # RESET INITIATED, time in ns = 0
 # RESET TERMINATED, time in ns= 150
 # ---------------------------------------------
@@ -137,3 +138,4 @@ Transcript
 # ---------------------------------------------
 # ** Note: $finish    : uart_env.sv(54)
 #    Time: 33343950 ns  Iteration: 3  Instance: /tb_uart_top/t1
+```
