@@ -2,7 +2,7 @@
 title: Projects
 ---
 
-### Serial communication between two FPGAs using UART
+### UART
 * UART receiver and transmitter is coded in verilog
 * The reciever and transmitter functionality is verified using a SystemVerilog testbench
 * The design is synthesized and implemented on Cyclone IV FPGA
