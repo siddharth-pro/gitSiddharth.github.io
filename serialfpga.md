@@ -40,7 +40,7 @@ Transmitter:
 
                                       
 
-Simulation output on the transcript window:
+#### Simulation output:
 
 ```
 # RESET INITIATED, time in ns = 0
@@ -119,6 +119,6 @@ Simulation output on the transcript window:
 #    Time: 33343950 ns  Iteration: 3  Instance: /tb_uart_top/t1
 ```  
                             
-Simulation waveform:
+#### Simulation waveform:
 
 ![UART](/assets/images/uart_tb_wave.png)
