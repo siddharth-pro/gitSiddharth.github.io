@@ -14,15 +14,18 @@ title: Projects
 * Address and data cycles are as per the datasheet of LM75A
 * Design is tested on Spartan 3E FPGA                                     
 * Temperature data is obtained in hexadecimal
+* Tool used: Xilinx ISE 
 #### [View Project](/i2cread.html)
 
 ### 8-bit RISC CPU
 * The processor is coded in verilog
 * The design is verified by writing the instructions to memory through backdoor access and letting the processor operate on those instructions
 * Operations such as reading from memory to register, writing to memory, addition and subtraction are verified 
+* Tool used: Questasim
 #### [View Project](/prorisc.html)
 
 ### Digital Clock on FPGA
 * Design is coded in verilog
 * Synthesized and Implemented on Spartan 3E FPGA
+* Tool used: Xilinx ISE
 #### [View Project](/digitalclock.html) 
