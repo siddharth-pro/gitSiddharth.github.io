@@ -1,14 +1,14 @@
 ---
 layout: page
-alt_title: I2C
+alt_title: I²C
 actions:
 - label: "View code on GitHub"
   icon: github
   url: https://github.com/gitSiddharth/IIC
 ---
-The goal of this project is to design an I2C core in verilog, implement it on FPGA, interface it with I2C sensor LM75A to read the temperature data.
-One part of this project is to design an I2C controller which in itself is a bit complicated thing to do. But this project wouldn't be possible without a good documentation of [LM75A](https://www.nxp.com/docs/en/data-sheet/LM75A.pdf). Thanks to NXP for this excellent [datasheet](https://www.nxp.com/docs/en/data-sheet/LM75A.pdf).
-LM75A is a digital temperature sensor and thermal watchdog, since the I2C controller has to read data from LM75A, knowing which register to access, what bits to consider is essential here and it is explained very well in the [datasheet](https://www.nxp.com/docs/en/data-sheet/LM75A.pdf).
+The goal of this project is to design an I²C core in verilog, implement it on FPGA, interface it with I²C sensor LM75A to read the temperature data.
+One part of this project is to design an I²C controller which in itself is a bit complicated thing to do. But this project wouldn't be possible without a good documentation of [LM75A](https://www.nxp.com/docs/en/data-sheet/LM75A.pdf). Thanks to NXP for this excellent [datasheet](https://www.nxp.com/docs/en/data-sheet/LM75A.pdf).
+LM75A is a digital temperature sensor and thermal watchdog, since the I²C controller has to read data from LM75A, knowing which register to access, what bits to consider is essential here and it is explained very well in the [datasheet](https://www.nxp.com/docs/en/data-sheet/LM75A.pdf).
 
 ![Temperature register](/assets/images/Temp_register.png)
 
@@ -18,7 +18,7 @@ LM75A has four registers, but the register of our interest is the temperature re
 
 The address which is to be sent is shown above. Here 0th bit indicates read/write operation. As we are reading from the sensor, it should be 1. Bits 1 to 3 specifies the slave address. It is taken as 000 since we have only one slave. Bit 4 to 7 is preset to 1001 by hard-wiring inside the LM75A.
 
-That's it about LM75A you need to know just for reading the temperature. Next thing is to design I2C module as per the protocol, which is explained very well over [here](https://learn.sparkfun.com/tutorials/i2c). The Sparkfun tutorial shows only one byte of data to be read or written. But, the LM75A temperature register stores two byte of data. Hence the read data cycle has to be done twice.
+That's it about LM75A you need to know just for reading the temperature. Next thing is to design I²C module as per the protocol, which is explained very well over [here](https://learn.sparkfun.com/tutorials/i2c). The Sparkfun tutorial shows only one byte of data to be read or written. But, the LM75A temperature register stores two byte of data. Hence the read data cycle has to be done twice.
 
 ![address_data_cycle](/assets/images/address_data_cycle.png)
 
