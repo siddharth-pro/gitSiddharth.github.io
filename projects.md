@@ -9,7 +9,7 @@ title: Projects
 * Tools used: Altera Quartus II and Questasim                             
 #### [View Project](/serialfpga.html)
 
-### Design of an I2C to read data from LM75A
+### Design of an I²C to read data from LM75A
 * Implemented in verilog
 * Address and data cycles are as per the datasheet of LM75A
 * Design is tested on Spartan 3E FPGA                                     
