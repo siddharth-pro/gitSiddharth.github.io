@@ -9,5 +9,5 @@ actions:
 
 
 ### Implemented on Papilio One FPGA board
-
+\n
 ![Clock implemented on Spartan 3E FPGA](/assets/images/digital_clock.gif)
