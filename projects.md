@@ -1,5 +1,6 @@
 ---
 title: Projects
+---
 
 ### UART
 * UART receiver and transmitter is coded in verilog
@@ -29,4 +30,3 @@ title: Projects
 * Tool used: Xilinx ISE
 #### [View Project](/digitalclock.html) 
 
----
