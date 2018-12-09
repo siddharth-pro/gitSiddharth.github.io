@@ -1,6 +1,5 @@
 ---
 title: Projects
----
 
 ### UART
 * UART receiver and transmitter is coded in verilog
@@ -29,3 +28,5 @@ title: Projects
 * Synthesized and Implemented on Spartan 3E FPGA
 * Tool used: Xilinx ISE
 #### [View Project](/digitalclock.html) 
+
+---
