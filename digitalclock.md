@@ -1,6 +1,6 @@
 ---
 layout: page
-alt_title: Clock
+title: Clock
 actions:
 - label: "View code on GitHub"
   icon: github
