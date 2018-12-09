@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Siddharth's blog | UART
 alt_title: UART
 actions:
 - label: "View code on GitHub"
