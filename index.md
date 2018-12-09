@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Home
+title: Siddharth's blog: Home
 paginate: false
-alt_title: ░░░░░░░░░░░░░░
+alt_title: ᴴᵒᵐᵉ
 
 ---
