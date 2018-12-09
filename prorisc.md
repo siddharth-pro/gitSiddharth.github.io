@@ -1,6 +1,7 @@
 ---
 layout: page
-title: proRISC
+title: Siddharth's blog | proRISC
+alt_title: proRISC
 sub_title: An 8-bit RISC Processor
 actions:
   - label: "View code on GitHub"
