@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ᵁˢⁱⁿᵍ ᴹⁱᶜʳᵒᵇˡᵃᶻᵉ ˢᵒᶠᵗᶜᵒʳᵉ ᵖʳᵒᶜᵉˢˢᵒʳ"
+title: "Using Microblaze softcore processor"
 date: "2018-10-11"
 ---
 
