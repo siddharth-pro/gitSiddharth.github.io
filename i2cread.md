@@ -27,8 +27,12 @@ In the two bytes of data received from LM75A, the bits 0 to 4 should be ignored 
 
 ![Temperature data](/assets/images/Temp_data.png)
 
+Output: 
+
 This 11-bit binary number should be multiplied with 0.125 to get the temperature in degree celsius. If D10=0, the temperature is positive. If D11=1, the temperature data should be 2's complimented and multiplied with 0.125 to get negative temperaure in °C.
 
 ### Hardware setup
 
 ![IIC_LM75A_7SEG](/assets/images/IIC_LM75A_7SEG.jpg)
+
+Output: (dc)₁₆ * 0.125 = (220)₁₀ * 0.125 = 27.5°C
