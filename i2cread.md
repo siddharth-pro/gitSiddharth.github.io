@@ -33,6 +33,6 @@ This 11-bit binary number should be multiplied with 0.125 to get the temperature
 
 ### Hardware setup
 
-![IIC_LM75A_7SEG](/assets/images/IIC_LM75A_7SEG.jpg)
+![IIC_LM75A_7SEG](/assets/images/IIC_LM75A_7SEG.png)
 
 Output: (dc)₁₆ * 0.125 = (220)₁₀ * 0.125 = 27.5°C
