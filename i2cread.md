@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Siddharth's blog | I²C
+title: I²C
 alt_title: I²C
 actions:
 - label: "View code on GitHub"
