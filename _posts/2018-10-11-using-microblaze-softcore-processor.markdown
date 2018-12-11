@@ -4,7 +4,7 @@ title: "Using Microblaze softcore processor"
 date: "2018-10-11"
 ---
 
-Xilinx provides its own softcore processor IP Microblaze to use in embedded systems application. In this post and a few that follow up, I will implement the Microblaze softcore processor on Spartan 3E FPGA. After that's done I will use xilinx provided SDK(Software Development Kit) to write a C program to turn on LEDs using switches.
+Xilinx provides its own softcore processor IP Microblaze to use in embedded systems application. In this post and a few that follow up, I will implement the Microblaze softcore processor on Spartan 3E FPGA. After that's done I will use Xilinx provided SDK(Software Development Kit) to write a C program to turn on LEDs using switches.
 
 I found [this](http://www.techcounsellor.com/2017/06/putting-microblaze-processor-papilio-one/) article which explains the whole step involved in setting up Microblaze on Papilio one FPGA board. It gives an example of blinking LED program to demonstrate the working. But the program below shows the use of switches to turn on LEDs.
 
