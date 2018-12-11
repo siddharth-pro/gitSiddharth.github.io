@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Siddharth's blog | proRISC
+title: proRISC
 alt_title: proRISC
 sub_title: An 8-bit RISC Processor
 actions:
