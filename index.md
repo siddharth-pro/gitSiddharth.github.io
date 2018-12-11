@@ -2,7 +2,7 @@
 layout: home
 title: Home
 paginate: false
-alt_title: á´´áµ’áµáµ‰
+alt_title: ᴴᵒᵐᵉ
 
 
 actions:
