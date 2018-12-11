@@ -1,3 +1,4 @@
+lang: en-US
 title: 【⚡iddharth's bl●g】
 description:
 google_analytics:
@@ -13,6 +14,35 @@ github_username: gitSiddharth
 email: jsiddharth80@gmail.com
 
 name: Siddharth J 
+
+search: true
+search_full_content: true
+search_provider: algolia
+algolia:
+  application_id: QB6HVGBSBA
+  index_name: siddharth's-blog
+  search_only_api_key: 9d5014e5bbc77372547bce778dfa5663
+  powered_by: # true (default), false
+
+# Liquid
+liquid:
+  error_mode: strict
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-basically-basic
+plugins: # previously gems
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+feed:
+  path: atom.xml
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
+
 
 plugins:
   - jekyll-mentions
