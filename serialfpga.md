@@ -43,83 +43,8 @@ Transmitter:
 
 #### Simulation output:
 
-```
-# RESET INITIATED, time in ns = 0
-# RESET TERMINATED, time in ns= 150
-# ---------------------------------------------
-# 	 Transaction no. = 0
-# 	 start = 1, 	 tx_data_in = c1,	 done_tx = 1
-# [TRANSACTION]::TX PASS
-# 	 Expected data = 24, 	 Obtained data = 48
-# [TRANSACTION]::RX FAIL
-# ---------------------------------------------
-# ---------------------------------------------
-# 	 Transaction no. = 1
-# 	 start = 1, 	 tx_data_in = b0,	 done_tx = 1
-# [TRANSACTION]::TX PASS
-# 	 Expected data = 81, 	 Obtained data = 81
-# [TRANSACTION]::RX PASS
-# ---------------------------------------------
-# ---------------------------------------------
-# 	 Transaction no. = 2
-# 	 start = 1, 	 tx_data_in = 9d,	 done_tx = 1
-# [TRANSACTION]::TX PASS
-# 	 Expected data = 9, 	 Obtained data = 9
-# [TRANSACTION]::RX PASS
-# ---------------------------------------------
-# ---------------------------------------------
-# 	 Transaction no. = 3
-# 	 start = 1, 	 tx_data_in = 1e,	 done_tx = 1
-# [TRANSACTION]::TX PASS
-# 	 Expected data = 63, 	 Obtained data = 63
-# [TRANSACTION]::RX PASS
-# ---------------------------------------------
-# ---------------------------------------------
-# 	 Transaction no. = 4
-# 	 start = 1, 	 tx_data_in = de,	 done_tx = 1
-# [TRANSACTION]::TX PASS
-# 	 Expected data = d, 	 Obtained data = d
-# [TRANSACTION]::RX PASS
-# ---------------------------------------------
-# ---------------------------------------------
-# 	 Transaction no. = 5
-# 	 start = 1, 	 tx_data_in = db,	 done_tx = 1
-# [TRANSACTION]::TX PASS
-# 	 Expected data = 8d, 	 Obtained data = 8d
-# [TRANSACTION]::RX PASS
-# ---------------------------------------------
-# ---------------------------------------------
-# 	 Transaction no. = 6
-# 	 start = 1, 	 tx_data_in = 97,	 done_tx = 1
-# [TRANSACTION]::TX PASS
-# 	 Expected data = 65, 	 Obtained data = 65
-# [TRANSACTION]::RX PASS
-# ---------------------------------------------
-# ---------------------------------------------
-# 	 Transaction no. = 7
-# 	 start = 1, 	 tx_data_in = 7b,	 done_tx = 1
-# [TRANSACTION]::TX PASS
-# 	 Expected data = 12, 	 Obtained data = 12
-# [TRANSACTION]::RX PASS
-# ---------------------------------------------
-# ---------------------------------------------
-# 	 Transaction no. = 8
-# 	 start = 1, 	 tx_data_in = 2d,	 done_tx = 1
-# [TRANSACTION]::TX PASS
-# 	 Expected data = 1, 	 Obtained data = 1
-# [TRANSACTION]::RX PASS
-# ---------------------------------------------
-# ---------------------------------------------
-# 	 Transaction no. = 9
-# 	 start = 1, 	 tx_data_in = d7,	 done_tx = 1
-# [TRANSACTION]::TX PASS
-# 	 Expected data = d, 	 Obtained data = d
-# [TRANSACTION]::RX PASS
-# ---------------------------------------------
-# ** Note: $finish    : uart_env.sv(54)
-#    Time: 33343950 ns  Iteration: 3  Instance: /tb_uart_top/t1
-```  
-                            
+![Transcript window](/assets/images/Transcript_window.bmp)
+
 #### Simulation waveform:
 
 ![UART](/assets/images/uart_tb_wave.png)
