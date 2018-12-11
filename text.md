@@ -1,5 +1,4 @@
 ⌂
-░Siddharth's blog░
-⚡
+░⚡📍ddharth's blog░
 【ϟiddharth's bl●g】
 💡
