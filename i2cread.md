@@ -7,6 +7,8 @@ actions:
   icon: github
   url: https://github.com/gitSiddharth/I2C
 ---
+
+
 The goal of this project is to design an I²C core in verilog, implement it on FPGA and interface it with I²C sensor LM75A to read the temperature data.
 One part of this project is to design an I²C controller which in itself is not an easy task. But this project wouldn't be possible without a good documentation of [LM75A](https://www.nxp.com/docs/en/data-sheet/LM75A.pdf). Thanks to NXP for this excellent [datasheet](https://www.nxp.com/docs/en/data-sheet/LM75A.pdf).
 LM75A is a digital temperature sensor and thermal watchdog, since the I²C controller has to read data from LM75A, knowing which register to access, what bits to consider is essential here and it is explained very well in the [datasheet](https://www.nxp.com/docs/en/data-sheet/LM75A.pdf).
