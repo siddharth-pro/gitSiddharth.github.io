@@ -13,7 +13,7 @@ LM75A is a digital temperature sensor and thermal watchdog, since the I²C contr
 
 ![Temperature register](/assets/images/Temp_register.png)
 
-LM75A has four registers, but the register of our interest is the temperature register which stores two byte of information. There are different pointer value for each register and it is 0 for temperature register. During power up the pointer value is already at 0, so we need not specify the pointer value to read the temperature.
+LM75A has four registers, but the register of our interest is the temperature register which stores two byte of information. Each register has a pointer value and it is 00h for temperature register. During power up the pointer value is already at 0, so we need not specify the pointer value to read the temperature.
 
 ![slave address](/assets/images/address.png)
 
