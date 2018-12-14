@@ -17,6 +17,7 @@ I found [this](http://www.techcounsellor.com/2017/06/putting-microblaze-processo
 #include "platform.h"
 
 /************************** Variable Defintions ******************************/
+
 XGpio Gpio_leds;  //Gpio_leds is user defined variable
 XGpio Gpio_keys;  //Also same as above
 
@@ -68,4 +69,16 @@ int main()
 }
 
  ``` 
+ 
+ ```verilog
+ module and_gate(a,b,y);
+ 
+ input a,b;
+ output y;
+ 
+ and(y,a,b);
+ assign y = a & b;
+ 
+ endmodule
+ ```
 
