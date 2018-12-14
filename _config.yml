@@ -87,7 +87,7 @@ defaults:
       read_time: true
 
 # Google Analytics tracking number
-google_analytics:
+google_analytics: UA-123145667-2
 
 # display post-excerpts on the home page
 show_excerpts: false
