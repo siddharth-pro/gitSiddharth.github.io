@@ -2,8 +2,10 @@
 layout: home
 title: Home
 paginate: false
-alt_title: 𝐼 𝒶𝓂 𝒮𝒾𝒹𝒹𝒽𝒶𝓇𝓉𝒽
-
+alt_title: ᴵ ᵃᵐ ˢⁱᵈᵈʰᵃʳᵗʰ
+sub_title: "An Engineer with a knack for electronics, mainly reconfigurable hardware"
+introduction: |
+  This is my blog where I document my personal projects and other technical know-hows.
 
 actions:
 
