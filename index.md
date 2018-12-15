@@ -10,7 +10,7 @@ introduction: |
 actions:
 
   - label : "View Projects"
-    icon: project
+    icon: bitbucket
     url: https://siddharth.pro/projects.html
   - label: "View GitHub"
     icon: github
