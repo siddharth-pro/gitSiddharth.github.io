@@ -2,7 +2,7 @@
 layout: home
 title: Home
 paginate: false
-alt_title: ᴴᵒᵐᵉ
+alt_title: 𝐼 𝒶𝓂 𝒮𝒾𝒹𝒹𝒽𝒶𝓇𝓉𝒽
 
 
 actions:
