@@ -6,7 +6,7 @@ date: "2018-10-11"
 
 Xilinx provides its own softcore processor IP Microblaze to use in embedded systems application. In this post and a few that follow up, I will implement the Microblaze softcore processor on Spartan 3E FPGA. After that's done I will use Xilinx provided SDK(Software Development Kit) to write a C program to turn on LEDs using switches.
 
-The steps involved in setting up Microblaze system are somewhat lengthy but simple.
+The whole step involved in setting up Microblaze system is somewhat lengthy but simple.
 
 Step 1: Create a new project and select Embedded Processsor from the new source wizard. Enter file name and click next. 
 
