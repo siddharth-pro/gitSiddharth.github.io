@@ -20,7 +20,7 @@ Step 3: Xilinx Platform Studio will open up asking if you want to create a Base 
 
 ![Step 3](/assets/images/Microblaze/Step3.png)
 
-Step 4: On the Create New XPS Peoject window select the type of the Interconnect and click ok. In case of Spartan 3E FPGA, AXI interconnect system is not present so PLB system is selected as default.
+Step 4: On the Create New XPS Project window select the type of the Interconnect and click ok. In case of Spartan 3E FPGA, AXI interconnect system is not present so PLB system is selected as default.
 
 ![Step 4](/assets/images/Microblaze/Step4.png)
 
