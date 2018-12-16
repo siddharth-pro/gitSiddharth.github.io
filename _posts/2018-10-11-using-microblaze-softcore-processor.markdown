@@ -172,6 +172,7 @@ int main()
 
  ``` 
 
+
 Save the program file. This will automatically compile the program and after the compilation is done close SDK and go back to Project Navigator.
 
 Step 26: Right click on the Hierarchy tab and select add source. Locate the .elf file from the SDK workplace -> debug folder and add it to the project. After the .elf file is added double click on Generate Programming File.
