@@ -48,7 +48,7 @@ Step 10: On the Cache section it says no cacheable memory for the processor beca
 
 ![Step 10](/assets/images/Microblaze/Step10.png)
 
-Step 11: Check th summary and see if the added devices are shown. Click finish
+Step 11: Check the summary and see if the added devices are shown. Click finish
 
 ![Step 11](/assets/images/Microblaze/Step11.png)
 
@@ -56,7 +56,7 @@ Step 12: A Running Design window will pop up. Select ok
 
 ![Step 12](/assets/images/Microblaze/Step12.png)
 
-Step 13: Now thw Xilinx Platform Studio will open up with the configured processor system. Check for added devices in Bus Interfaces, Ports and Addresses window. Click on UCF File on the right side under Project Files.
+Step 13: Now the Xilinx Platform Studio will open up with the configured processor system. Check for added devices in Bus Interfaces, Ports and Addresses window. Click on UCF File on the right side under Project Files.
 
 ![Step 13](/assets/images/Microblaze/Step13.png)
 
@@ -104,7 +104,7 @@ Step 24: Type the Project name and choose the required language. In this case I 
 
 ![Step 24](/assets/images/Microblaze/Step24.png)
 
-Step 25: Naviate the project created earlier and under src select helloworld.c and rename it to Switch_led.c. 
+Step 25: Navigate the project created earlier and under src select helloworld.c and rename it to Switch_led.c. 
 
 ![Step 25](/assets/images/Microblaze/Step25.png)
 
