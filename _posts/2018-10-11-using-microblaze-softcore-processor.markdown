@@ -185,7 +185,7 @@ Step 27: Once the process is completed view the Device Utilization Summary and n
 
 Locate the bit file and upload it to the FPGA board.
 
-
+![Switch_LED](/assets/images/Microblaze/Microblaze_Switch_LED.jpg)
 
 
 
