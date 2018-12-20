@@ -53,10 +53,10 @@ Transmitter:
 
 ![Hardware setup](/assets/images/hardware_setup.jpg)
 
-#### Receving "01100001(a)" from PC through Hyperterminal
+##### Receving "01100001(a)" from PC through Hyperterminal
 
 ![Receive a](/assets/images/receive_a.jpg)
 
-#### Transmitting "01000010(B)" from FPGA board to PC
+##### Transmitting "01000010(B)" from FPGA board to PC
 
 ![Transmit B](/assets/images/transmit_B.jpg)
