@@ -1,0 +1,38 @@
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <title>Questa Coverage Report</title>
+  <link rel="StyleSheet" media="screen" href="../css/hdl2html.css"/>
+</head>
+<body id="hdl2html">
+  <tt><a name="1"/><span style="color:red">%s%%s%%s%%s%%s%1%s%%s%</span><span class="keyword">class</span>%s%uart_cov;<br/>
+<a name="2"/><span style="color:red">%s%%s%%s%%s%%s%2%s%%s%</span>%s%%s%<br/>
+<a name="3"/><span style="color:red">%s%%s%%s%%s%%s%3%s%%s%</span>%s%%s%uart_trans%s%trans%s%=%s%<span class="keyword">new</span>();<br/>
+<a name="4"/><span style="color:red">%s%%s%%s%%s%%s%4%s%%s%</span>%s%%s%<br/>
+<a name="5"/><span style="color:red">%s%%s%%s%%s%%s%5%s%%s%</span>%s%%s%<span class="keyword">covergroup</span>%s%cov_inst;<br/>
+<a name="6"/><span style="color:red">%s%%s%%s%%s%%s%6%s%%s%</span>%s%%s%option.per_instance%s%=%s%1;<br/>
+<a name="7"/><span style="color:red">%s%%s%%s%%s%%s%7%s%%s%</span>%s%%s%RX:<span class="keyword">coverpoint</span>%s%trans.rx%s%{<span class="keyword">bins</span>%s%rx_c%s%=%s%{0,1};}<br/>
+<a name="8"/><span style="color:red">%s%%s%%s%%s%%s%8%s%%s%</span>%s%%s%TX_DIN:<span class="keyword">coverpoint</span>%s%trans.tx_data_in%s%{<span class="keyword">bins</span>%s%tx_din_c%s%=%s%{[0:255]};}<br/>
+<a name="9"/><span style="color:red">%s%%s%%s%%s%%s%9%s%%s%</span>%s%%s%START:<span class="keyword">coverpoint</span>%s%trans.start%s%{<span class="keyword">bins</span>%s%str%s%=%s%{0,1};}<br/>
+<a name="10"/><span style="color:red">%s%%s%%s%%s%10%s%%s%</span>%s%%s%TX:<span class="keyword">coverpoint</span>%s%trans.tx%s%{<span class="keyword">bins</span>%s%tx_c%s%=%s%{0,1};}<br/>
+<a name="11"/><span style="color:red">%s%%s%%s%%s%11%s%%s%</span>%s%%s%RX_DOUT:<span class="keyword">coverpoint</span>%s%trans.rx_data_out%s%{<span class="keyword">bins</span>%s%rx_dout_c%s%=%s%{[0:255]};}<br/>
+<a name="12"/><span style="color:red">%s%%s%%s%%s%12%s%%s%</span>%s%%s%TX_ACT:<span class="keyword">coverpoint</span>%s%trans.tx_active%s%{<span class="keyword">bins</span>%s%tx_act_c%s%=%s%{0,1};}<br/>
+<a name="13"/><span style="color:red">%s%%s%%s%%s%13%s%%s%</span>%s%%s%DONE:<span class="keyword">coverpoint</span>%s%trans.done_tx%s%{<span class="keyword">bins</span>%s%dtx_c%s%=%s%{0,1};}<br/>
+<a name="14"/><span style="color:red">%s%%s%%s%%s%14%s%%s%</span>%s%%s%<span class="keyword">endgroup</span>%s%<br/>
+<a name="15"/><span style="color:red">%s%%s%%s%%s%15%s%%s%</span><br/>
+<a name="16"/><span style="color:red">%s%%s%%s%%s%16%s%%s%</span>%s%%s%<span class="keyword">function</span>%s%<span class="keyword">new</span>();<br/>
+<a name="17"/><span style="color:red">%s%%s%%s%%s%17%s%%s%</span>%s%%s%%s%%s%cov_inst%s%=%s%<span class="keyword">new</span>;<br/>
+<a name="18"/><span style="color:red">%s%%s%%s%%s%18%s%%s%</span>%s%%s%<span class="keyword">endfunction</span><br/>
+<a name="19"/><span style="color:red">%s%%s%%s%%s%19%s%%s%</span>%s%%s%<br/>
+<a name="20"/><span style="color:red">%s%%s%%s%%s%20%s%%s%</span>%s%%s%<span class="keyword">task</span>%s%main;<br/>
+<a name="21"/><span style="color:red">%s%%s%%s%%s%21%s%%s%</span>%s%%s%%s%%s%cov_inst.sample();<br/>
+<a name="22"/><span style="color:red">%s%%s%%s%%s%22%s%%s%</span>%s%%s%<span class="keyword">endtask</span><br/>
+<a name="23"/><span style="color:red">%s%%s%%s%%s%23%s%%s%</span><br/>
+<a name="24"/><span style="color:red">%s%%s%%s%%s%24%s%%s%</span><span class="keyword">endclass</span><br/>
+<a name="25"/><span style="color:red">%s%%s%%s%%s%25%s%%s%</span><br/>
+</tt>
+<script type="text/javascript" src="../scripts/buildsrcpage.js"></script>
+  
+</body>
+</html>

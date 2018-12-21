@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <title>Questa Coverage Report</title>
+  <!-- original name: _tb_uart_top_dut_transmitterContentFrame2.htm -->
+  <link rel="StyleSheet" media="print"  href="../css/ucdb2htmlP.css"/>
+  <link rel="StyleSheet" media="screen" href="../css/ucdb2html.css"/>
+  <script type="text/javascript" src="../scripts/showhide.js"></script>
+  
+</head>
+<body id="ucdb2html_detail" onload="showLast()">
+  <h1><span class="strip">Questa</span> Branch Coverage Report</h1>
+  <h3>Scope: /<a href="z000009.htm">tb_uart_top</a>/<a href="z000065.htm">dut</a>/<a href="z000163.htm">transmitter</a></h3>
+  <!-- use script block so buttons vanish when JavaScript is disabled -->
+  <script type="text/javascript">
+  <!--
+  document.write(
+    '<table class="buttons" cellspacing="2" cellpadding="2"><tr>' +
+       '<td id="showAll" width="100" onclick="showAll()" class="button_on" ' +
+           'title="Display all coverage scopes and bins.">Show All</td>' +
+       '<td id="showCov" width="100" onclick="showCov()" class="button_off" ' +
+           'title="Display only covered scopes and bins.">Show Covered</td>' +
+       '<td id="showMis" width="100" onclick="showMis()" class="button_off" ' +
+           'title="Display only uncovered scopes and bins.">Show Missing</td>' +
+    '</tr></table>');
+  //-->
+  </script>
+  <div class="covered"><a name="cvg164"/><hr/><table cellspacing="2" cellpadding="2">
+  <tr><td colspan="4"><span style="color:red">30:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#30">if(rst) begin</a></td><td class="bgGreen">100.00%</td></tr><tr><th class="odd" colspan="2">Branch</th><th class="even">Source</th><th class="odd">Hits</th><th class="even">Status</th></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">IF</td><td class="even"><span style="color:red">30:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#30">if(rst) begin</a></td><td class="odd_r">2</td><td class="green">Covered</td></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">ELSE</td><td class="even"><span style="color:red">37:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#37">else begin</a></td><td class="odd_r">521038</td><td class="green">Covered</td></tr>
+  </table>
+  </div><div class="covered"><a name="cvg165"/><hr/><table cellspacing="2" cellpadding="2">
+  <tr><td colspan="4"><span style="color:red">54:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#54">case(tx_STATE)</a></td><td class="bgGreen">100.00%</td></tr><tr><th class="odd" colspan="2">Branch</th><th class="even">Source</th><th class="odd">Hits</th><th class="even">Status</th></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">TRUE</td><td class="even"><span style="color:red">56:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#56">tx_IDLE: begin</a></td><td class="odd_r">22</td><td class="green">Covered</td></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">TRUE</td><td class="even"><span style="color:red">69:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#69">tx_START: begin</a></td><td class="odd_r">52288</td><td class="green">Covered</td></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">TRUE</td><td class="even"><span style="color:red">81:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#81">tx_DATA: begin</a></td><td class="odd_r">416640</td><td class="green">Covered</td></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">TRUE</td><td class="even"><span style="color:red">100:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#100">tx_STOP: begin</a></td><td class="odd_r">52080</td><td class="green">Covered</td></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">TRUE</td><td class="even"><span style="color:red">112:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#112">tx_DONE: begin</a></td><td class="odd_r">20</td><td class="green">Covered</td></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">TRUE</td><td class="even"><span style="color:red">117:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#117">default: tx_NEXT = tx_IDLE;</a></td><td class="odd_r">1</td><td class="green">Covered</td></tr>
+  </table>
+  </div><div class="covered"><a name="cvg166"/><hr/><table cellspacing="2" cellpadding="2">
+  <tr><td colspan="4"><span style="color:red">60:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#60">if(start == 1) begin</a></td><td class="bgGreen">100.00%</td></tr><tr><th class="odd" colspan="2">Branch</th><th class="even">Source</th><th class="odd">Hits</th><th class="even">Status</th></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">IF</td><td class="even"><span style="color:red">60:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#60">if(start == 1) begin</a></td><td class="odd_r">21</td><td class="green">Covered</td></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">ELSE</td><td class="even"><span style="color:red">64:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#64">else begin</a></td><td class="odd_r">1</td><td class="green">Covered</td></tr>
+  </table>
+  </div><div class="covered"><a name="cvg167"/><hr/><table cellspacing="2" cellpadding="2">
+  <tr><td colspan="4"><span style="color:red">71:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#71">if(clk_div_reg &lt; clock_divide-1) begin</a></td><td class="bgGreen">100.00%</td></tr><tr><th class="odd" colspan="2">Branch</th><th class="even">Source</th><th class="odd">Hits</th><th class="even">Status</th></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">IF</td><td class="even"><span style="color:red">71:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#71">if(clk_div_reg &lt; clock_divide-1) begin</a></td><td class="odd_r">52268</td><td class="green">Covered</td></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">ELSE</td><td class="even"><span style="color:red">75:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#75">else begin</a></td><td class="odd_r">20</td><td class="green">Covered</td></tr>
+  </table>
+  </div><div class="covered"><a name="cvg168"/><hr/><table cellspacing="2" cellpadding="2">
+  <tr><td colspan="4"><span style="color:red">83:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#83">if(clk_div_reg &lt; clock_divide-1) begin</a></td><td class="bgGreen">100.00%</td></tr><tr><th class="odd" colspan="2">Branch</th><th class="even">Source</th><th class="odd">Hits</th><th class="even">Status</th></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">IF</td><td class="even"><span style="color:red">83:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#83">if(clk_div_reg &lt; clock_divide-1) begin</a></td><td class="odd_r">416480</td><td class="green">Covered</td></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">ELSE</td><td class="even"><span style="color:red">87:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#87">else begin</a></td><td class="odd_r">160</td><td class="green">Covered</td></tr>
+  </table>
+  </div><div class="covered"><a name="cvg169"/><hr/><table cellspacing="2" cellpadding="2">
+  <tr><td colspan="4"><span style="color:red">89:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#89">if(index_bit_reg &lt; 7) begin</a></td><td class="bgGreen">100.00%</td></tr><tr><th class="odd" colspan="2">Branch</th><th class="even">Source</th><th class="odd">Hits</th><th class="even">Status</th></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">IF</td><td class="even"><span style="color:red">89:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#89">if(index_bit_reg &lt; 7) begin</a></td><td class="odd_r">140</td><td class="green">Covered</td></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">ELSE</td><td class="even"><span style="color:red">93:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#93">else begin</a></td><td class="odd_r">20</td><td class="green">Covered</td></tr>
+  </table>
+  </div><div class="covered"><a name="cvg170"/><hr/><table cellspacing="2" cellpadding="2">
+  <tr><td colspan="4"><span style="color:red">102:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#102">if(clk_div_reg &lt; clock_divide-1) begin</a></td><td class="bgGreen">100.00%</td></tr><tr><th class="odd" colspan="2">Branch</th><th class="even">Source</th><th class="odd">Hits</th><th class="even">Status</th></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">IF</td><td class="even"><span style="color:red">102:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#102">if(clk_div_reg &lt; clock_divide-1) begin</a></td><td class="odd_r">52060</td><td class="green">Covered</td></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">ELSE</td><td class="even"><span style="color:red">106:&nbsp;&nbsp;</span><a href="__HDL_srcfile_6.htm#106">else begin</a></td><td class="odd_r">20</td><td class="green">Covered</td></tr>
+  </table>
+  </div>
+  <!-- make sure jumps to last few line nos work -->
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+  
+</body>
+</html>

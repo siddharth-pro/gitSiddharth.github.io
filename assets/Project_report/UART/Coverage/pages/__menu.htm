@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <title>Questa Coverage Report</title>
+  <link type="text/css" rel="StyleSheet" href="../css/mtitree.css"/>
+  <link type="text/css" rel="StyleSheet" href="../css/ucdb2html.css"/>
+  <script type="text/javascript" src="../scripts/mtitree.js"></script>
+  <script type="text/javascript">
+  <!--
+  function openAll() {
+    if (document.getElementById('pane1').style.display != 'none') t.openAll();
+    if (document.getElementById('pane2').style.display != 'none') d.openAll();
+    if (document.getElementById('pane3').style.display != 'none') u.openAll();
+  }
+  function closeAll() {
+    if (document.getElementById('pane1').style.display != 'none') t.closeAll();
+    if (document.getElementById('pane2').style.display != 'none') d.closeAll();
+    if (document.getElementById('pane3').style.display != 'none') u.closeAll();
+  }
+  function disableAll() {
+    document.getElementById('pane1').style.display='none';
+    document.getElementById('pane2').style.display='none';
+    document.getElementById('pane3').style.display='none';
+  }
+  function buttonsOff() {
+    document.getElementById('button1').className='button_off';
+    document.getElementById('button2').className='button_off';
+    document.getElementById('button3').className='button_off';
+  }
+  function drawTo(c) {
+    switch (c) {
+      case 1: t.drawTreeTo(document.getElementById('pane1')); break;
+      case 2: d.drawTreeTo(document.getElementById('pane2')); break;
+      case 3: u.drawTreeTo(document.getElementById('pane3')); break;
+    }
+  }
+  function select(c) {
+    disableAll(); document.getElementById('pane'   + c).style.display='';
+    buttonsOff(); document.getElementById('button' + c).className='button_on';
+    setTimeout('drawTo(' + c + ')', 500);
+  }
+  // -->
+  </script>
+</head>
+<body>
+  <table class="buttons" cellspacing="2" cellpadding="2" width="100%"><tr>
+    <td width="75" class="button_off" id="button1"
+        title="Select testplan tree" onclick="select('1')">Testplan</td>
+    <td width="75" class="button_off" id="button2"
+        title="Select design tree" onclick="select('2')">Design</td>
+    <td width="75" class="button_off" id="button3"
+        title="Select design unit list" onclick="select('3')">DesUnits</td>
+    <td class="invisible">&nbsp;</td><!-- spacer -->
+  </tr></table><hr/>
+  <div class="pane" id="pane1" style="display:none;">
+  <script type="text/javascript">
+  <!--
+    t = new Tree('t');
+    
+    if (t.length() > 0) {
+      document.getElementById('pane1').style.display='';
+      document.getElementById('button1').className='button_on';
+      document.write(t);
+    }
+  //-->
+  </script>
+  </div>
+  <div class="pane" id="pane2" style="display:none;">
+  <script type="text/javascript">
+  <!--
+    d = new Tree('d');
+    d.add(1, 0, 'tb_uart_top', 'z000009.htm', '', '../icons/square-ltBlue.png', 'SystemVerilog');
+d.add(2, 1, 'vif', 'z000012.htm', '', '../icons/square-ltBlue.png', 'SystemVerilog');
+d.add(3, 1, 't1', 'z000038.htm', '', '../icons/square-ltBlue.png', 'SystemVerilog');
+d.add(4, 3, 'vif', 'z000039.htm', '', '../icons/square-ltBlue.png', 'SystemVerilog');
+d.add(5, 1, 'dut', 'z000065.htm', '', '../icons/square-ltBlue.png', 'Verilog');
+d.add(6, 5, 'receiver', 'z000091.htm', '', '../icons/square-ltBlue.png', 'Verilog');
+d.add(7, 5, 'transmitter', 'z000163.htm', '', '../icons/square-ltBlue.png', 'Verilog');
+d.add(8, 0, 'compilation_files_sv_unit', 'z000237.htm', '', '../icons/square-ltBlue.png', 'SystemVerilog');
+d.add(9, 8, 'uart_trans (no coverage)', null, '', '../icons/square-ltBlue.png', 'SystemVerilog');
+d.add(10, 8, 'uart_gen (no coverage)', null, '', '../icons/square-ltBlue.png', 'SystemVerilog');
+d.add(11, 8, 'uart_driv (no coverage)', null, '', '../icons/square-ltBlue.png', 'SystemVerilog');
+d.add(12, 8, 'uart_cov', 'z000259.htm', '', '../icons/square-ltBlue.png', 'SystemVerilog');
+d.add(13, 8, 'uart_env (no coverage)', null, '', '../icons/square-ltBlue.png', 'SystemVerilog');
+
+    if ((d.length() > 0) && (t.length() < 1)) {
+      document.getElementById('pane2').style.display='';
+      document.getElementById('button2').className='button_on';
+      document.write(d);
+    }
+  //-->
+  </script>
+  </div>
+  <div class="pane" id="pane3" style="display:none;">
+  <script type="text/javascript">
+  <!--
+    u = new Tree('u');
+    u.add(1, 0, 'work.compilation_files_sv_unit', 'z000002.htm', '', '../icons/square-ltBlue.png', 'SystemVerilog');
+u.add(2, 0, 'work.tb_uart_top', 'z000003.htm', '', '../icons/square-ltBlue.png', 'SystemVerilog');
+u.add(3, 0, 'work.uart_intf', 'z000004.htm', '', '../icons/square-ltBlue.png', 'SystemVerilog');
+u.add(4, 0, 'work.uart_test', 'z000005.htm', '', '../icons/square-ltBlue.png', 'SystemVerilog');
+u.add(5, 0, 'work.uart', 'z000006.htm', '', '../icons/square-ltBlue.png', 'Verilog');
+u.add(6, 0, 'work.uart_rx', 'z000007.htm', '', '../icons/square-ltBlue.png', 'Verilog');
+u.add(7, 0, 'work.uart_tx', 'z000008.htm', '', '../icons/square-ltBlue.png', 'Verilog');
+
+    // document.write(u);
+  //-->
+  </script>
+  <h3>Loading...</h3>
+  </div>
+</body>
+</html>

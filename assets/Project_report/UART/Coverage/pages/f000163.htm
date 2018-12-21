@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <title>Questa Coverage Report</title>
+  <!-- original name: _tb_uart_top_dut_transmitterContentFrame5.htm -->
+  <link rel="StyleSheet" media="print"  href="../css/ucdb2htmlP.css"/>
+  <link rel="StyleSheet" media="screen" href="../css/ucdb2html.css"/>
+  <script type="text/javascript" src="../scripts/showhide.js"></script>
+  
+</head>
+<body id="ucdb2html_detail" onload="showLast()">
+  <h1><span class="strip">Questa</span> State-machine Coverage Report</h1>
+  <h3>Scope: /<a href="z000009.htm">tb_uart_top</a>/<a href="z000065.htm">dut</a>/<a href="z000163.htm">transmitter</a></h3>
+  <!-- use script block so buttons vanish when JavaScript is disabled -->
+  <script type="text/javascript">
+  <!--
+  document.write(
+    '<table class="buttons" cellspacing="2" cellpadding="2"><tr>' +
+       '<td id="showAll" width="100" onclick="showAll()" class="button_on" ' +
+           'title="Display all coverage scopes and bins.">Show All</td>' +
+       '<td id="showCov" width="100" onclick="showCov()" class="button_off" ' +
+           'title="Display only covered scopes and bins.">Show Covered</td>' +
+       '<td id="showMis" width="100" onclick="showMis()" class="button_off" ' +
+           'title="Display only uncovered scopes and bins.">Show Missing</td>' +
+    '</tr></table>');
+  //-->
+  </script>
+  <div><a name="cvg171"/><hr/><table cellspacing="2" cellpadding="2">
+  <tr><td colspan="3">FSM: <a href="__HDL_srcfile_6.htm#56">tx_STATE</a></td><td class="bgYellow">84.61%</td></tr>
+  <tr><th class="odd" colspan="2">States / Transitions</th><th class="even">Hits</th><th class="odd">Status</th></tr>
+  <tr><td class="odd" colspan="2">State: tx_IDLE</td><td class="even_r">22</td><td class="green">Covered</td></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">Trans: tx_IDLE -> tx_IDLE</td><td class="even_r">1</td><td class="green">Covered</td></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">Trans: tx_IDLE -> tx_START</td><td class="even_r">21</td><td class="green">Covered</td></tr>
+  <tr><td class="odd" colspan="2">State: tx_START</td><td class="even_r">52278</td><td class="green">Covered</td></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">Trans: tx_START -> tx_DATA</td><td class="even_r">20</td><td class="green">Covered</td></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">Trans: tx_START -> tx_START</td><td class="even_r">52257</td><td class="green">Covered</td></tr>
+  <tr class="missing"><td class="invisible">&nbsp;</td><td class="odd">Trans: tx_START -> tx_IDLE</td><td class="even_r">0</td><td class="red">ZERO</td></tr>
+  <tr><td class="odd" colspan="2">State: tx_DATA</td><td class="even_r">416640</td><td class="green">Covered</td></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">Trans: tx_DATA -> tx_STOP</td><td class="even_r">20</td><td class="green">Covered</td></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">Trans: tx_DATA -> tx_DATA</td><td class="even_r">416620</td><td class="green">Covered</td></tr>
+  <tr class="missing"><td class="invisible">&nbsp;</td><td class="odd">Trans: tx_DATA -> tx_IDLE</td><td class="even_r">0</td><td class="red">ZERO</td></tr>
+  <tr><td class="odd" colspan="2">State: tx_STOP</td><td class="even_r">52080</td><td class="green">Covered</td></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">Trans: tx_STOP -> tx_DONE</td><td class="even_r">20</td><td class="green">Covered</td></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">Trans: tx_STOP -> tx_STOP</td><td class="even_r">52060</td><td class="green">Covered</td></tr>
+  <tr class="missing"><td class="invisible">&nbsp;</td><td class="odd">Trans: tx_STOP -> tx_IDLE</td><td class="even_r">0</td><td class="red">ZERO</td></tr>
+  <tr><td class="odd" colspan="2">State: tx_DONE</td><td class="even_r">20</td><td class="green">Covered</td></tr>
+  <tr class="covered"><td class="invisible">&nbsp;</td><td class="odd">Trans: tx_DONE -> tx_IDLE</td><td class="even_r">20</td><td class="green">Covered</td></tr>
+  <tr class="missing"><td class="invisible">&nbsp;</td><td class="odd">Trans: tx_DONE -> tx_DONE</td><td class="even_r">0</td><td class="red">ZERO</td></tr>
+  </table>
+  </div>
+  <!-- make sure jumps to last few line nos work -->
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+  
+</body>
+</html>
