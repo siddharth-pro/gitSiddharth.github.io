@@ -68,7 +68,7 @@ After doing all the necessary analysis and obtaining timing closure, the SDC fil
 
 ![Step 15](/assets/images/UART_timing/Step15.png)
 
-The design is recompiled again and it can be seen contents that there are no timing violations occured.
+The design is recompiled again and it can be seen on the Table of contents that there are no timing violations occured.
 
 ![Step 16](/assets/images/UART_timing/Step16.png)
 
