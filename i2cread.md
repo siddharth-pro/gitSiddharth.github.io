@@ -33,7 +33,17 @@ Output:
 
 This 11-bit binary number should be multiplied with 0.125 to get the temperature in degree celsius. If D10=0, the temperature is positive. If D11=1, the temperature data should be 2's complimented and multiplied with 0.125 to get negative temperaure in °C.
 
+#### Simulation output:
+
+![Transcript](/assets/images/I2C_transcript.png)
+
+#### Simulation waveform:
+
+![Waveform](/assets/images/I2C_waveform.png)
+
 ### Hardware setup
+
+Implemented on Papilio One FPGA board
 
 ![IIC_LM75A_7SEG](/assets/images/IIC_LM75A_7SEG.png)
 
