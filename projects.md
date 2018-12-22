@@ -20,8 +20,7 @@ title: Projects
 ### 8-bit RISC CPU
 * The processor is coded in verilog.
 * The design is verified by loading testvalue.bin file containing  all the instructions to memory through backdoor access and applying clock to the design in testbench.
-* The operations are verified through the waveform.
-* Operations such as reading from memory to register, writing to memory, addition and subtraction are verified. 
+* Operations such as reading from memory to register, writing to memory, addition and subtraction are verified through the waveform. 
 * Tool used: Questasim
 #### [View Project](/prorisc.html)
 
