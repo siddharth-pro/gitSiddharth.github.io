@@ -51,6 +51,10 @@ The transaction window output shows that the first RX trasaction fails which als
 
 ![UART](/assets/images/uart_tb_wave.png)
 
+#### Coverage summary:
+
+![Coverage summary](/assets/images/uart_coverage.png)
+
 #### Hardware setup:
 
 ![Hardware setup](/assets/images/hardware_setup.jpg)
