@@ -13,7 +13,7 @@ title: Projects
 * Design and testbench coded in verilog.
 * Address and data cycles are as per the datasheet of LM75A.
 * Design is implemented on Spartan 3E FPGA of Papilio One FPGA board.                                  
-* Temperature data is obtained in hexadecimal.
+* Temperature data is obtained in hexadecimal and displayed on seven segment display.
 * Tools used: Xilinx ISE and Questasim
 #### [View Project](/i2cread.html)
 
