@@ -6,7 +6,8 @@ title: Projects
 * UART receiver and transmitter is coded in verilog.
 * The reciever and transmitter functionality is verified using a SystemVerilog testbench.
 * The design is synthesized and implemented on Cyclone IV FPGA.
-* Tools used: Altera Quartus II and Questasim                             
+* Achieved timing closure using TimeQuest Timing Analyzer.
+* Tools used: Altera Quartus II, TimeQuest and Questasim                             
 #### [View Project](/serialfpga.html)
 
 ### Design of an I²C to read data from LM75A
