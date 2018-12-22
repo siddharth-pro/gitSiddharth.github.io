@@ -72,8 +72,8 @@ The design is recompiled again and it can be seen on the Table of contents that 
 
 ![Step 16](/assets/images/UART_timing/Step16.png)
 
-Setup Slack is positive
+Setup Slack is now positive
 
 ![Step 17](/assets/images/UART_timing/Step17.png)
 
-and zero Unconstrained paths...
+and also there are no Unconstrained paths.
