@@ -4,7 +4,7 @@ title: "UART :: Achieving Timing closure"
 date: "2018-10-06"
 ---
 
-Although my UART project worked properly when implemented on FPGA there are some critical warnings related to timing which shows up in the compilation report.
+Although my [UART project](https://siddharth.pro/serialfpga.html) worked fine when implemented on FPGA there are some critical warnings related to timing which shows up during the compilation.
 
 ![Step 1](/assets/images/UART_timing/Step1.png)
 
@@ -18,7 +18,7 @@ We need to account for this timing violations by performing timing analysis. For
 
 ![Step 3](/assets/images/UART_timing/Step3.png)
 
-I started by creating new Timing Netlist with Post-fit, Slow-corner delay model with Speed grade of 8. The FPGA I use is of speed grade 8.
+I started by creating new Timing Netlist by selecting Post-fit, Slow-corner delay model with Speed grade of 8. The Cyclone IV FPGA on my FPGA board is of speed grade 8.
 
 After creating the netlist, under Task pane, Report All Summaries and Report Unconstrained Paths is clicked. This will show all the timing violations and unconstrained paths.
 
