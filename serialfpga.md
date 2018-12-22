@@ -45,7 +45,7 @@ Transmitter:
 
 ![Transcript window](/assets/images/Transcript_window.bmp)
 
-The transaction window output shows that the first RX trasaction fails which also seems to be the case when I test it on hardware. The first data shown on the LEDs is not the same data entered on the keyboard. This might be some bug in the design.
+The transaction window output shows that the first RX trasaction fails which also seems to be the case when I test it on hardware. The first data shown on the LEDs is sometimes not the same data entered on the keyboard. This might be some bug in the design.
 
 #### Simulation waveform:
 
