@@ -14,7 +14,7 @@ The contents in red indicates timing violations that have occured. There are unc
 
 Also it can be seen that the setup slack is -3.975. Negative slack is undesirable as it means the timing requirements are not met. Here setup slack is negative, therefore setup timing requirements are not met.
 
-We need to account for this timing violations by performing timing analysis. For Altera FPGAs this can be done by using TimeQuest Timing Analyzer.
+We need to account for this timing violations by performing timing analysis. For Altera/Intel FPGAs this can be done by using TimeQuest Timing Analyzer.
 
 ![Step 3](/assets/images/UART_timing/Step3.png)
 
@@ -36,7 +36,7 @@ I created a Clock constraint with same period as the FPGA clock i.e 20ns. After 
 
 ![Step 7](/assets/images/UART_timing/Step7.png)
 
-The Slack Histogram now shows all the timing in blue meaning there is no setup violation which can be further confirmed from the timing report.
+The Slack Histogram now shows all the timing in blue, meaning there is no setup violation which can be further confirmed from the timing report.
 
 ![Step 8](/assets/images/UART_timing/Step8.png)
 
