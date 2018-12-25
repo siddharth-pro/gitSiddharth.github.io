@@ -61,11 +61,11 @@ The transaction window output shows that the first RX trasaction fails which als
 
 On the Hyperterminal software the port settings are made as below.
 
-Bits per second: 19200
-Data bits: 8
-Partiy bit: None
-Stop bits: 1
-Flow control: None
+Bits per second: 19200                            
+Data bits: 8                                       
+Partiy bit: None                                       
+Stop bits: 1                                              
+Flow control: None                                         
 
 ##### RX test: Receving "01100001(a)" from PC using Hyperterminal
 
