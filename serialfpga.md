@@ -59,10 +59,18 @@ The transaction window output shows that the first RX trasaction fails which als
 
 ![Hardware setup](/assets/images/hardware_setup.jpg)
 
-##### Receving "01100001(a)" from PC through Hyperterminal
+On the Hyperterminal software the port settings are made as below.
+
+Bits per second: 19200
+Data bits: 8
+Partiy bit: None
+Stop bits: 1
+Flow control: None
+
+##### RX test: Receving "01100001(a)" from PC using Hyperterminal
 
 ![Receive a](/assets/images/receive_a.jpg)
 
-##### Transmitting "01000010(B)" from FPGA board to PC
+##### TX test: Transmitting "01000010(B)" from FPGA board to PC
 
 ![Transmit B](/assets/images/transmit_B.jpg)
