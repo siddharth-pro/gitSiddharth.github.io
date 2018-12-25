@@ -10,7 +10,7 @@ actions:
 
 
 ##### The goal of this project is to:                    
-1. To design an UART in Verilog.
+1. Design an UART in Verilog.
 2. Test the design using a SystemVerilog testbench.
 3. Synthesize the design and implement it on Cyclone IV FPGA board.
 4. Interface the board with PC using hyperterminal.
