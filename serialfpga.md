@@ -10,13 +10,13 @@ actions:
 
 
 ##### The goal of this project is to:                    
-1. Design an UART in Verilog.
-2. Test the design using a SystemVerilog testbench.
+1. Design UART receiver and transmitter in SystemVerilog.
+2. Test the design in a complete SystemVerilog testbench environment.
 3. Synthesize the design and implement it on Cyclone IV FPGA board.
 4. Interface the board with PC using hyperterminal.
 
 ##### Here's a brief overview of this project:                                       
-The main part of this project is the UART itself which is coded in verilog. I have developed receiver and transmitter as seperate modules. Both the modules are instantiated in the top module through which all the interface takes place. The design is verified using testbench written in SV. After the design works in simulation, it is synthesized using Altera Quartus II to generate the bitstream for the FPGA. The FPGA board is interfaced with PC at a baud rate of 19200 using hyperterminal software and to and fro communication between PC and FPGA is verified. I have used switches to give input to the PC which is indicated as ASCII character on the screen. The input from keyboard is indicated on the LEDs.
+The main part of this project is the UART itself which is coded in SystemVerilog. I have developed receiver and transmitter as seperate modules. Both the modules are instantiated in the top module through which all the interface takes place. The design is verified using testbench written in SV. After the design works in simulation, it is synthesized using Altera Quartus II to generate the bitstream for the FPGA. The FPGA board is interfaced with PC at a baud rate of 19200 using hyperterminal software and to and fro communication between PC and FPGA is verified. I have used switches to give input to the PC which is indicated as ASCII character on the screen. The input from keyboard is indicated on the LEDs.
 
 
 #### UART Protcol:
