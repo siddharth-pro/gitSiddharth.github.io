@@ -108,4 +108,4 @@ altera_ver = $MODEL_TECH/../altera_ver
 sgate_ver = $MODEL_TECH/../sgate_ver
 cycloneive_ver = $MODEL_TECH/../cycloneive_ver
 ```
-These must be included above [vcom]. After that's done, save the file and open Questasim. You should be able to see the new altera libraries created under Library window.
+These must be included above [vcom]. After that's done, save the file and open Questasim. You should be able to see the new altera libraries created under Library window. The Questasim can now be used to verify the designs with Altera IPs.
