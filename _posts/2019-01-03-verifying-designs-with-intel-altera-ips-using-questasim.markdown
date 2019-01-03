@@ -4,7 +4,7 @@ title: "Verifying designs with Intel/Altera IPs in Questasim"
 date: "2019-01-03"
 ---
 
-FPGA designs often contains one or more built-in IPs provided by the FPGA vender tools. 
+FPGA designs often contain one or more built-in IPs provided by the FPGA vender tools. 
 But verifying those designs is not a straight forward task. In case of Intel/Altera FPGA 
 tools they provide their own version of Modelsim called Modelsim-Altera to simulate the 
 designs created in Quartus Prime or Quartus II. But it is limited in what it can perform and if you want to use advanced 
@@ -12,7 +12,7 @@ verififcation techniques you will mostly want to go with Questasim. There's a me
 which Questasim can be made to work with Altera IPs. It involves compiling the
 standard altera components to create libraries manually in Questasim and making changes to
 the root configuration file. So it might be better to save a backup of the modelsim.ini
-file.
+file if anything goes wrong.
 
 I used the below tcl script to compile the component files. Make sure to include
 the correct file name for the FPGA you have. In my case it is Cyclone IV E.
@@ -92,7 +92,7 @@ if {[string equal $type_of_sim "compile_all"]} {
 
 Save this script as altera_lib.tcl in the Questasim root directory path.
 Now open up Questasim and change the directory to the path where you placed
-the tcl file i.e. in the root directory.
+the tcl script i.e. in the root directory.
 
 Now run the file from the transcript window using do command ``` do altera_lib.tcl ```.
 
@@ -108,4 +108,4 @@ altera_ver = $MODEL_TECH/../altera_ver
 sgate_ver = $MODEL_TECH/../sgate_ver
 cycloneive_ver = $MODEL_TECH/../cycloneive_ver
 ```
-These must be include above [vcom]. After that's done, save the file and open Questasim. You should be able to see the new altera libraries created under Library window.
+These must be included above [vcom]. After that's done, save the file and open Questasim. You should be able to see the new altera libraries created under Library window.
