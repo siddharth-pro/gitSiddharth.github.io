@@ -33,13 +33,16 @@ if {[string equal $type_of_sim "compile_all"]} {
 	vlib altera_mf_ver
 	vmap altera_mf_ver altera_mf_ver
 	vlog -work altera_mf_ver $path_to_quartus/eda/sim_lib/altera_mf.v
-  vlib altera_lnsim_ver
+        
+	vlib altera_lnsim_ver
 	vmap altera_lnsim_ver altera_lnsim_ver
 	vlog -work altera_lnsim_ver $path_to_quartus/eda/sim_lib/altera_lnsim.sv
+	
 	vlib altera_ver
 	vmap altera_ver altera_ver
 	vlog -work altera_ver $path_to_quartus/eda/sim_lib/altera_primitives_quasar.v
 	vlog -work altera_ver $path_to_quartus/eda/sim_lib/altera_primitives.v
+	
 	vlib sgate_ver
 	vmap sgate_ver sgate_ver
 	vlog -work sgate_ver $path_to_quartus/eda/sim_lib/sgate.v
@@ -53,7 +56,7 @@ if {[string equal $type_of_sim "compile_all"]} {
 	vmap lpm_ver lpm_ver
 	vlog -work lpm_ver  $path_to_quartus/eda/sim_lib/220model.v
         
-  vlib altera_lnsim_ver
+        vlib altera_lnsim_ver
 	vmap altera_lnsim_ver altera_lnsim_ver
 	vlog -work altera_lnsim_ver  $path_to_quartus/eda/sim_lib/altera_lnsim.sv
 
@@ -66,7 +69,7 @@ if {[string equal $type_of_sim "compile_all"]} {
 	vmap lpm_ver lpm_ver
 	vlog -work lpm_ver  $path_to_quartus/eda/sim_lib/220model.v
 
-  vlib altera_lnsim_ver
+        vlib altera_lnsim_ver
 	vmap altera_lnsim_ver altera_lnsim_ver
 	vlog -work altera_lnsim_ver  $path_to_quartus/eda/sim_lib/altera_lnsim.sv
 
