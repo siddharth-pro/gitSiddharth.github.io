@@ -94,7 +94,7 @@ Save this script as altera_lib.tcl in the Questasim root directory path.
 Now open up Questasim and change the directory to the path where you placed
 the tcl script i.e. in the root directory.
 
-Now run the file from the transcript window using do command ``` do altera_lib.tcl ```.
+Now run the file from the transcript window using do command "``` do altera_lib.tcl ```".
 
 This will take a while. After that's done, check the Questasim installation folder for the new folders created by the command.
 
