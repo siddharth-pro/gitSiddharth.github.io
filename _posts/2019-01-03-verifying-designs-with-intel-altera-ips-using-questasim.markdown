@@ -8,7 +8,7 @@ FPGA designs often contain one or more built-in IPs provided by the FPGA vender 
 But verifying those designs is not a straight forward task. In case of Intel/Altera FPGA 
 tools they provide their own version of Modelsim called Modelsim-Altera to simulate the 
 designs created in Quartus Prime or Quartus II. But it is limited in what it can perform and if you want to use advanced 
-verififcation techniques you will mostly want to go with Questasim. 
+verification techniques you will mostly want to go with Questasim. 
 
 There's a method by which Questasim can be made to work with Altera IPs. It involves compiling the
 standard altera components to create libraries manually in Questasim and making changes to
