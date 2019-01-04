@@ -20,7 +20,7 @@ the correct file name for the FPGA you have. In my case it is Cyclone IV E.
 Rest of the files should remain the same. Also make sure these files are actually present in
 the Quartus II installation folder. Check under Quartus II installation directory/quartus/eda/sim_lib.
 
-```tcl
+````
 
 set path_to_quartus c:/altera/10.1/quartus
 set type_of_sim compile_all
@@ -89,7 +89,7 @@ if {[string equal $type_of_sim "compile_all"]} {
 	puts "invalid code"
 }
 
-``` 
+````
 
 Save this script as altera_lib.tcl in the Questasim root directory path.
 Now open up Questasim and change the directory to the path where you placed
