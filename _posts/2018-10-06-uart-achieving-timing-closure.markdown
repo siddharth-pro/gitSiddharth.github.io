@@ -3,7 +3,6 @@ layout: post
 title: "UART :: Achieving Timing closure"
 date: "2018-10-06"
 ---
-```Topic: UART, FPGA, TimeQuest```
 
 Although my [UART project](https://siddharth.pro/serialfpga.html) worked fine when implemented on FPGA, there are some critical warnings related to timing which shows up during the compilation.
 
