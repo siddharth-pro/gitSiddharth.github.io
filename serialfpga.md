@@ -43,7 +43,7 @@ Transmitter:
 
 #### Simulation output:
 
-![Transcript window](/assets/images/Transcript_window.bmp)
+![Transcript window](/assets/images/Transcript.png)
 
 #### Simulation waveform:
 
