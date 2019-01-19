@@ -4,7 +4,7 @@ title: Projects
 
 ### UART
 * UART receiver and transmitter is coded in SystemVerilog.
-* The reciever and transmitter functionality is verified using a SystemVerilog testbench.
+* The reciever and transmitter functionality is verified using UVM and SystemVerilog.
 * The design is synthesized and implemented on Cyclone IV FPGA.
 * Achieved timing closure using TimeQuest Timing Analyzer.
 * Tools used: Altera Quartus II, TimeQuest and Questasim                             
