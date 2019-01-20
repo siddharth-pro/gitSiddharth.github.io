@@ -5,9 +5,10 @@ date: "2019-01-20"
 ---
 
 
-
 In the previous post I explained a method for simulating Altera IPs in Questasim, as an example I tried to verify Altera FIFO IP using UVM in Questasim.
-For that, first you need to create a FIFO in Quartus II using Tools -> MegaWizard Plug-In Manager option. Instantiate a FIFO with required data width and depth. I chose data width of 8 and depth of 256 and used same clock for both read and write, which makes it synchronous. Under Tools -> Options -> EDA Tools Options, provide the execuatable path of Questasim. 
+For that, first you need to create a FIFO in Quartus II using Tools -> MegaWizard Plug-In Manager option. Instantiate a FIFO with required data width and depth. I chose data width of 8 and depth of 256 and used same clock for both read and write, which makes it synchronous. 
+
+Under Tools -> Options -> EDA Tools Options, provide the execuatable path of Questasim. 
 Select Assignments -> Settings -> Simulation and choose QuestaSim as Tool name and provide the testbench location in NativeLink settings.  
 Compile the project and click on Tools -> Run EDA Simulation Tool -> EDA RTL Simulation.
 
