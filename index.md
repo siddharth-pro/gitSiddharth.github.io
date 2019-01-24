@@ -1,20 +1,11 @@
 ---
+
 layout: home
-title: Home
+title: ᴴᵒᵐᵉ
 paginate: false
 alt_title: 
-sub_title: "Hi, I'm Siddharth. This is my blog where I document my personal projects and other technical know-hows."
-introduction: 
-
+sub_title: 
 actions:
-
-  - label : "View Projects"
-    icon: codepen
-    url: https://siddharth.pro/projects.html
-  - label: "View GitHub"
-    icon: github
-    url: https://github.com/gitSiddharth
-
 
 ---
 
