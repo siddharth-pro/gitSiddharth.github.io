@@ -1,7 +1,7 @@
 ---
 
 layout: home
-title: ᴴᵒᵐᵉ
+title:
 paginate: false
 
 ---
