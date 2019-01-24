@@ -3,7 +3,7 @@ layout: home
 title: Home
 paginate: false
 alt_title: 
-sub_title: "Hi! I'm Siddharth. This is my blog where I document my personal projects and other technical know-hows."
+sub_title: "Hi, I'm Siddharth. This is my blog where I document my personal projects and other technical know-hows."
 introduction: 
 
 actions:
