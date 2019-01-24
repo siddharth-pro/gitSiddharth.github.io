@@ -1,7 +1,7 @@
 ---
 
 layout: home
-title: 🏘
+title: ⌂
 paginate: false
 
 ---
