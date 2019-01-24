@@ -14,12 +14,6 @@ actions:
 
 
 
-<!-- 16:9 aspect ratio -->
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=Wch3gJG2GJ4"></iframe>
-</div>
-
-<!-- 4:3 aspect ratio -->
-<div class="embed-responsive embed-responsive-4by3">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=Wch3gJG2GJ4"></iframe>
+  <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/l2Of1-d5E5o?controls=0&amp;" frameborder="0" allowfullscreen></iframe>
 </div>
