@@ -18,7 +18,8 @@ Questasim.
 
 It should look like below
 
-```
+{% highlight code linenos %}
+
 transcript on
 
 if {[file exists rtl_work]} {
@@ -39,7 +40,7 @@ view structure
 view signals
 run -all
 
-```
+{% endhighlight %}
 
 Create a Questasim project in the location where you have compiled the above files and run the .do file from the transcript window.   
 
