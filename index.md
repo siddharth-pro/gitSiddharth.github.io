@@ -1,5 +1,5 @@
 ---
 layout: home
-title: ⌂ 𝙷𝚘𝚖𝚎
+title: ⌂ H̳o̳m̳e̳
 ---
 
