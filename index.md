@@ -1,5 +1,5 @@
 ---
 layout: home
-title: ⌂ Home
+title: ⌂ 𝙷𝚘𝚖𝚎
 ---
 
