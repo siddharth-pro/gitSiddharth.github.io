@@ -20,7 +20,7 @@ the correct file name for the FPGA you have. In my case it is Cyclone IV E.
 Rest of the files should remain the same. Also make sure these files are actually present in
 the Quartus II installation folder. Check under Quartus II installation directory/quartus/eda/sim_lib.
 
-{% highlight tcl linenos %}
+{% highlight xx linenos %}
 
 set path_to_quartus c:/altera/10.1/quartus
 set type_of_sim compile_all
