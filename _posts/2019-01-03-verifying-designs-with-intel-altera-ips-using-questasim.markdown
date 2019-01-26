@@ -20,7 +20,7 @@ the correct file name for the FPGA you have. In my case it is Cyclone IV E.
 Rest of the files should remain the same. Also make sure these files are actually present in
 the Quartus II installation folder. Check under Quartus II installation directory/quartus/eda/sim_lib.
 
-{% highlight xx linenos %}
+{% highlight code linenos %}
 
 set path_to_quartus c:/altera/10.1/quartus
 set type_of_sim compile_all
@@ -101,12 +101,13 @@ This will take a while. After that's done, check the Questasim installation fold
 
 Now we must make changes in the configuration file modelsim.ini as below.
 
-```
+{% highlight code linenos %}
 lpm_ver = $MODEL_TECH/../lpm_ver
 altera_lnsim_ver = $MODEL_TECH/../altera_lnsim_ver
 altera_mf_ver = $MODEL_TECH/../altera_mf_ver
 altera_ver = $MODEL_TECH/../altera_ver
 sgate_ver = $MODEL_TECH/../sgate_ver
 cycloneive_ver = $MODEL_TECH/../cycloneive_ver
-```
+{% endhighlight %}
+
 These must be included above [vcom]. After that's done, save the file and open Questasim. You should be able to see the new altera libraries created under Library window. The Questasim can now be used to verify the designs with Altera IPs.
