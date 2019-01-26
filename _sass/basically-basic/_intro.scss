@@ -42,7 +42,7 @@
   @include fluid-type($min-vw, $max-vw, 22px, 36px);
   margin-bottom: 1rem;
   color: tint($text-color, 25%);
-  line-height: 1;
+  line-height: 1.2;
 }
 
 .intro-subtitle {
