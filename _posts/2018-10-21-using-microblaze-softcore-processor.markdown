@@ -111,7 +111,7 @@ Step 25: Navigate the project created earlier and under src select helloworld.c 
 Double click on the renamed .c file and replace the default program with the below program.
 
 
-```c
+{% highlight c linenos %}
 /***************************** Include Files *********************************/
 #include <stdio.h>
 #include "xparameters.h"
@@ -170,7 +170,7 @@ int main()
     return 0;
 }
 
- ``` 
+{% endhighlight %} 
 
 
 Save the program file. This will automatically compile the program and after the compilation is done close SDK and go back to Project Navigator.
