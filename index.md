@@ -2,6 +2,6 @@
 layout: home
 title: Home
 paginate: false
-alt_title: ⌂ Home
+alt_title: 🏠 Home
 ---
 
