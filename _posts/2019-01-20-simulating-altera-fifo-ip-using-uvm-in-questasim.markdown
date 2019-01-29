@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Simulating Altera FIFO IP using UVM in Questasim"
+title: "Simulating Intel/Altera FIFO IP using UVM in Questasim"
 date: "2019-01-20"
 ---
 
