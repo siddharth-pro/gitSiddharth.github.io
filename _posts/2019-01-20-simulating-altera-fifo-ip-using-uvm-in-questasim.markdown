@@ -44,4 +44,6 @@ run -all
 
 Create a Questasim project in the location where you have compiled the above files and run the .do file from the transcript window.   
 
-![Waveform](/assets/images/alt_fifo.png)
+![Waveform](/assets/images/alt_fifo.png) 
+
+[View code on GitHub](https://github.com/gitSiddharth/altera_fifo_ip_verification)
