@@ -49,3 +49,13 @@ B-format instructions:
 
 ![](/assets/images/B_instructions.png)
 
+## Simulation
+
+Subtracting 3 from 5
+
+![](/assets/images/subtraction.png)
+
+Observing various control signals using SignalTap Logic Analyzer
+
+![](/assets/images/sigtap2.gif)
+
