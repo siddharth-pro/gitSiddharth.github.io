@@ -20,9 +20,11 @@ title: Projects
 
 ### 8-bit RISC CPU
 * The processor is coded in Verilog.
-* The design is verified by loading testvalue.bin file containing  all the instructions to memory through backdoor access and applying clock to the design in testbench.
-* Operations such as reading from memory to register, writing to memory, addition and subtraction are verified through the waveform. 
-* Tool used: Questasim
+* It is simulated by initializing the memory with instructions and applying clock to the design in testbench.
+* Few operations such as addition, subtraction, reading from memory to register is verified from the waveform.
+* It is synthesized and implemented on Cyclone IV FPGA.
+* Various internal signals are observed using SignalTap logic analyzer.  
+* Tools used: Intel/Altera Quartus II and Questasim
 #### [View Project](/prorisc.html)
 
 ### Digital Clock on FPGA
