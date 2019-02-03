@@ -5,7 +5,7 @@ alt_title: I²C
 actions:
 - label: "View code on GitHub"
   icon: github
-  url: https://github.com/gitSiddharth/I2C
+  url: https://github.com/sdarth/I2C
 ---
 
 
