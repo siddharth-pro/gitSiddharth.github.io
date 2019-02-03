@@ -5,7 +5,7 @@ alt_title: UART
 actions:
 - label: "View code on GitHub"
   icon: github
-  url: https://github.com/gitSiddharth/UART
+  url: https://github.com/sdarth/UART
 ---
 
 
