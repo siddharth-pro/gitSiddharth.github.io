@@ -5,7 +5,7 @@ alt_title: 8-bit RISC CPU
 actions:
   - label: "View code on GitHub"
     icon: github
-    url: https://github.com/gitSiddharth/8-bit-RISC-CPU
+    url: https://github.com/sdarth/8-bit-RISC-CPU
 ---
 
 
