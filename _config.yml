@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: Siddharth's blog 
-email: jsiddharth80@gmail.com
+title: Siddharth's blog
+email: blog.siddharth.pro@gmail.com
 description:
 baseurl: # the optional subpath of your site, e.g. "/blog"
 url: "https://siddharth-pro.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -24,7 +24,7 @@ author:
   twitter:
   picture:
 twitter_username:
-github_username: sdarth
+github_username: darthsider
 
 logo: /assets/images/logo.png
 search: true # true, false (default)
